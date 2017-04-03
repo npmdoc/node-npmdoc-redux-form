@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"redux-form",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "redux-form",
+    "description": "api documentation for [redux-form (v6.6.1)](https://redux-form.com/) [![npm package](https://img.shields.io/npm/v/npmdoc-redux-form.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-form) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-form.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-form)",
     "devDependencies": {
-        "redux-form": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "redux-form": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-redux-form",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-redux-form",
+    "keywords": [
+        "documentation",
+        "redux-form"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_redux_form.js",
+    "name": "npmdoc-redux-form",
+    "nameAlias": "npmdoc_redux_form",
+    "nameOriginal": "npmdoc-redux-form",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-redux-form.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
