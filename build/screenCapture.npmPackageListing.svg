@@ -1,348 +1,348 @@
 <svg height="5518" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="5518" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-03 18:10:18 +0000  2356696 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-03 18:10:18 +0000      230 byte  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-03 18:10:18 +0000     1081 byte  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-03 18:10:18 +0000     2426 byte  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-03 18:10:18 +0000   263115 byte  dist/redux-form.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-03 18:10:18 +0000    95475 byte  dist/redux-form.min.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-03 18:10:18 +0000    11989 byte  es/ConnectedField.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-03 18:10:18 +0000     8110 byte  es/ConnectedFieldArray.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-03 18:10:18 +0000    11153 byte  es/ConnectedFields.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-03 18:10:18 +0000     6105 byte  es/Field.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-03 18:10:18 +0000     6004 byte  es/FieldArray.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-03 18:10:18 +0000     6492 byte  es/Fields.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-03 18:10:18 +0000     2390 byte  es/Form.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-03 18:10:18 +0000     3692 byte  es/FormSection.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-03 18:10:18 +0000     1407 byte  es/SubmissionError.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-03 18:10:18 +0000    93437 byte  es/__tests__/Field.spec.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-03 18:10:18 +0000    91361 byte  es/__tests__/FieldArray.spec.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-03 18:10:18 +0000    73444 byte  es/__tests__/Fields.spec.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-03 18:10:18 +0000    10247 byte  es/__tests__/Form.spec.js</tspan>
-<tspan x="10" y="330"> 19.  2017-04-03 18:10:18 +0000    13845 byte  es/__tests__/FormSection.spec.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-03 18:10:18 +0000    13588 byte  es/__tests__/actions.spec.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-03 18:10:18 +0000     1127 byte  es/__tests__/addExpectations.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-03 18:10:18 +0000     2112 byte  es/__tests__/asyncValidation.spec.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-03 18:10:18 +0000    14080 byte  es/__tests__/createFieldArrayProps.spec.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-03 18:10:18 +0000    13613 byte  es/__tests__/createFieldProps.spec.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-03 18:10:18 +0000     1482 byte  es/__tests__/defaultShouldAsyncValidate.spec.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-03 18:10:18 +0000     2201 byte  es/__tests__/defaultShouldValidate.spec.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-03 18:10:18 +0000     2683 byte  es/__tests__/deleteInWithCleanUp.spec.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-03 18:10:18 +0000     1611 byte  es/__tests__/fieldKeys.spec.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-03 18:10:18 +0000     6426 byte  es/__tests__/formValueSelector.spec.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-03 18:10:18 +0000    14284 byte  es/__tests__/generateFields.spec.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-03 18:10:18 +0000     8783 byte  es/__tests__/generateValidator.spec.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-03 18:10:18 +0000    16919 byte  es/__tests__/handleSubmit.spec.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-03 18:10:18 +0000     4903 byte  es/__tests__/hasError.spec.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-03 18:10:18 +0000     6558 byte  es/__tests__/immutable.spec.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-03 18:10:18 +0000     6673 byte  es/__tests__/index.spec.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-03 18:10:18 +0000     2952 byte  es/__tests__/reducer.arrayInsert.spec.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-03 18:10:18 +0000     2018 byte  es/__tests__/reducer.arrayMove.spec.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-03 18:10:18 +0000     1263 byte  es/__tests__/reducer.arrayPop.spec.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-03 18:10:18 +0000     2297 byte  es/__tests__/reducer.arrayPush.spec.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-03 18:10:18 +0000    12920 byte  es/__tests__/reducer.arrayRemove.spec.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-03 18:10:18 +0000     2096 byte  es/__tests__/reducer.arrayRemoveAll.spec.js</tspan>
-<tspan x="10" y="698"> 42.  2017-04-03 18:10:18 +0000     1044 byte  es/__tests__/reducer.arrayShift.spec.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-03 18:10:18 +0000     6701 byte  es/__tests__/reducer.arraySplice.spec.js</tspan>
-<tspan x="10" y="730"> 44.  2017-04-03 18:10:18 +0000     1991 byte  es/__tests__/reducer.arraySwap.spec.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-03 18:10:18 +0000     1317 byte  es/__tests__/reducer.arrayUnshift.spec.js</tspan>
-<tspan x="10" y="762"> 46.  2017-04-03 18:10:18 +0000     1933 byte  es/__tests__/reducer.autofill.spec.js</tspan>
-<tspan x="10" y="778"> 47.  2017-04-03 18:10:18 +0000     8391 byte  es/__tests__/reducer.blur.spec.js</tspan>
-<tspan x="10" y="794"> 48.  2017-04-03 18:10:18 +0000     7005 byte  es/__tests__/reducer.change.spec.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-03 18:10:18 +0000      917 byte  es/__tests__/reducer.clearAsyncError.spec.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-03 18:10:18 +0000     1342 byte  es/__tests__/reducer.clearSubmit.spec.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-03 18:10:18 +0000     1481 byte  es/__tests__/reducer.clearSubmitErrors.spec.js</tspan>
-<tspan x="10" y="858"> 52.  2017-04-03 18:10:18 +0000     1172 byte  es/__tests__/reducer.destroy.spec.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-03 18:10:18 +0000     1995 byte  es/__tests__/reducer.focus.spec.js</tspan>
-<tspan x="10" y="890"> 54.  2017-04-03 18:10:18 +0000     9941 byte  es/__tests__/reducer.initialize.spec.js</tspan>
-<tspan x="10" y="906"> 55.  2017-04-03 18:10:18 +0000     4617 byte  es/__tests__/reducer.plugin.spec.js</tspan>
-<tspan x="10" y="922"> 56.  2017-04-03 18:10:18 +0000     1541 byte  es/__tests__/reducer.registerField.spec.js</tspan>
-<tspan x="10" y="938"> 57.  2017-04-03 18:10:18 +0000     3164 byte  es/__tests__/reducer.reset.spec.js</tspan>
-<tspan x="10" y="954"> 58.  2017-04-03 18:10:18 +0000     2196 byte  es/__tests__/reducer.setSubmitFailed.spec.js</tspan>
-<tspan x="10" y="970"> 59.  2017-04-03 18:10:18 +0000     1568 byte  es/__tests__/reducer.setSubmitSuceeded.spec.js</tspan>
-<tspan x="10" y="986"> 60.  2017-04-03 18:10:18 +0000     4888 byte  es/__tests__/reducer.spec.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-03 18:10:18 +0000     1247 byte  es/__tests__/reducer.startAsyncValidation.spec.js</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-03 18:10:18 +0000     1051 byte  es/__tests__/reducer.startSubmit.spec.js</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-03 18:10:18 +0000     6017 byte  es/__tests__/reducer.stopAsyncValidation.spec.js</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-03 18:10:18 +0000    10209 byte  es/__tests__/reducer.stopSubmit.spec.js</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-03 18:10:18 +0000     1340 byte  es/__tests__/reducer.submit.spec.js</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-03 18:10:18 +0000     2223 byte  es/__tests__/reducer.touch.spec.js</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-03 18:10:18 +0000     2079 byte  es/__tests__/reducer.unregisterField.spec.js</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-03 18:10:18 +0000     4685 byte  es/__tests__/reducer.untouch.spec.js</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-03 18:10:18 +0000     2815 byte  es/__tests__/reducer.updateSyncErrors.spec.js</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-03 18:10:18 +0000     2850 byte  es/__tests__/reducer.updateSyncWarnings.spec.js</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-03 18:10:18 +0000   152181 byte  es/__tests__/reduxForm.spec.js</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-03 18:10:18 +0000      183 byte  es/__tests__/setup.js</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-03 18:10:18 +0000     2615 byte  es/__tests__/values.spec.js</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-03 18:10:18 +0000     1815 byte  es/actionTypes.js</tspan>
-<tspan x="10" y="1226"> 75.  2017-04-03 18:10:18 +0000     7501 byte  es/actions.js</tspan>
-<tspan x="10" y="1242"> 76.  2017-04-03 18:10:18 +0000      750 byte  es/asyncValidation.js</tspan>
-<tspan x="10" y="1258"> 77.  2017-04-03 18:10:18 +0000     3003 byte  es/createAll.js</tspan>
-<tspan x="10" y="1274"> 78.  2017-04-03 18:10:18 +0000     3457 byte  es/createFieldArrayProps.js</tspan>
-<tspan x="10" y="1290"> 79.  2017-04-03 18:10:18 +0000     3500 byte  es/createFieldProps.js</tspan>
-<tspan x="10" y="1306"> 80.  2017-04-03 18:10:18 +0000      683 byte  es/defaultShouldAsyncValidate.js</tspan>
-<tspan x="10" y="1322"> 81.  2017-04-03 18:10:18 +0000      528 byte  es/defaultShouldValidate.js</tspan>
-<tspan x="10" y="1338"> 82.  2017-04-03 18:10:18 +0000     1065 byte  es/deleteInWithCleanUp.js</tspan>
-<tspan x="10" y="1354"> 83.  2017-04-03 18:10:18 +0000     7951 byte  es/events/__tests__/getValue.spec.js</tspan>
-<tspan x="10" y="1370"> 84.  2017-04-03 18:10:18 +0000     1086 byte  es/events/__tests__/isEvent.spec.js</tspan>
-<tspan x="10" y="1386"> 85.  2017-04-03 18:10:18 +0000     1541 byte  es/events/__tests__/onChangeValue.spec.js</tspan>
-<tspan x="10" y="1402"> 86.  2017-04-03 18:10:18 +0000     1060 byte  es/events/__tests__/silenceEvent.spec.js</tspan>
-<tspan x="10" y="1418"> 87.  2017-04-03 18:10:18 +0000     1829 byte  es/events/__tests__/silenceEvents.spec.js</tspan>
-<tspan x="10" y="1434"> 88.  2017-04-03 18:10:18 +0000     1189 byte  es/events/getValue.js</tspan>
-<tspan x="10" y="1450"> 89.  2017-04-03 18:10:18 +0000      152 byte  es/events/isEvent.js</tspan>
-<tspan x="10" y="1466"> 90.  2017-04-03 18:10:18 +0000      518 byte  es/events/onChangeValue.js</tspan>
-<tspan x="10" y="1482"> 91.  2017-04-03 18:10:18 +0000      200 byte  es/events/silenceEvent.js</tspan>
-<tspan x="10" y="1498"> 92.  2017-04-03 18:10:18 +0000      420 byte  es/events/silenceEvents.js</tspan>
-<tspan x="10" y="1514"> 93.  2017-04-03 18:10:18 +0000     1317 byte  es/fieldKeys.js</tspan>
-<tspan x="10" y="1530"> 94.  2017-04-03 18:10:18 +0000     1168 byte  es/formValueSelector.js</tspan>
-<tspan x="10" y="1546"> 95.  2017-04-03 18:10:18 +0000     2638 byte  es/generateFields.js</tspan>
-<tspan x="10" y="1562"> 96.  2017-04-03 18:10:18 +0000      841 byte  es/generateValidator.js</tspan>
-<tspan x="10" y="1578"> 97.  2017-04-03 18:10:18 +0000     3420 byte  es/handleSubmit.js</tspan>
-<tspan x="10" y="1594"> 98.  2017-04-03 18:10:18 +0000      788 byte  es/hasError.js</tspan>
-<tspan x="10" y="1610"> 99.  2017-04-03 18:10:18 +0000     3105 byte  es/immutable.js</tspan>
-<tspan x="10" y="1626">100.  2017-04-03 18:10:18 +0000     3093 byte  es/index.js</tspan>
-<tspan x="10" y="1642">101.  2017-04-03 18:10:18 +0000      335 byte  es/isChecked.js</tspan>
-<tspan x="10" y="1658">102.  2017-04-03 18:10:18 +0000      175 byte  es/isReactNative.js</tspan>
-<tspan x="10" y="1674">103.  2017-04-03 18:10:18 +0000     3480 byte  es/propTypes.js</tspan>
-<tspan x="10" y="1690">104.  2017-04-03 18:10:18 +0000    19942 byte  es/reducer.js</tspan>
-<tspan x="10" y="1706">105.  2017-04-03 18:10:18 +0000    36812 byte  es/reduxForm.js</tspan>
-<tspan x="10" y="1722">106.  2017-04-03 18:10:18 +0000     1964 byte  es/selectors/__tests__/getFormAsyncErrors.spec.js</tspan>
-<tspan x="10" y="1738">107.  2017-04-03 18:10:18 +0000     1776 byte  es/selectors/__tests__/getFormInitialValues.spec.\</tspan>
+<tspan x="10" y="26">  0.  2017-04-03 18:11:40 +0000  2356696 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-03 18:11:40 +0000      230 byte  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-03 18:11:40 +0000     1081 byte  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-03 18:11:40 +0000     2426 byte  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-03 18:11:40 +0000   263115 byte  dist/redux-form.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-03 18:11:40 +0000    95475 byte  dist/redux-form.min.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-03 18:11:40 +0000    11989 byte  es/ConnectedField.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-03 18:11:40 +0000     8110 byte  es/ConnectedFieldArray.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-03 18:11:40 +0000    11153 byte  es/ConnectedFields.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-03 18:11:40 +0000     6105 byte  es/Field.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-03 18:11:40 +0000     6004 byte  es/FieldArray.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-03 18:11:40 +0000     6492 byte  es/Fields.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-03 18:11:40 +0000     2390 byte  es/Form.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-03 18:11:40 +0000     3692 byte  es/FormSection.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-03 18:11:40 +0000     1407 byte  es/SubmissionError.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-03 18:11:40 +0000    93437 byte  es/__tests__/Field.spec.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-03 18:11:40 +0000    91361 byte  es/__tests__/FieldArray.spec.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-03 18:11:40 +0000    73444 byte  es/__tests__/Fields.spec.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-03 18:11:40 +0000    10247 byte  es/__tests__/Form.spec.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-03 18:11:40 +0000    13845 byte  es/__tests__/FormSection.spec.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-03 18:11:40 +0000    13588 byte  es/__tests__/actions.spec.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-03 18:11:40 +0000     1127 byte  es/__tests__/addExpectations.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-03 18:11:40 +0000     2112 byte  es/__tests__/asyncValidation.spec.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-03 18:11:40 +0000    14080 byte  es/__tests__/createFieldArrayProps.spec.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-03 18:11:40 +0000    13613 byte  es/__tests__/createFieldProps.spec.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-03 18:11:40 +0000     1482 byte  es/__tests__/defaultShouldAsyncValidate.spec.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-03 18:11:40 +0000     2201 byte  es/__tests__/defaultShouldValidate.spec.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-03 18:11:40 +0000     2683 byte  es/__tests__/deleteInWithCleanUp.spec.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-03 18:11:40 +0000     1611 byte  es/__tests__/fieldKeys.spec.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-03 18:11:40 +0000     6426 byte  es/__tests__/formValueSelector.spec.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-03 18:11:40 +0000    14284 byte  es/__tests__/generateFields.spec.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-03 18:11:40 +0000     8783 byte  es/__tests__/generateValidator.spec.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-03 18:11:40 +0000    16919 byte  es/__tests__/handleSubmit.spec.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-03 18:11:40 +0000     4903 byte  es/__tests__/hasError.spec.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-03 18:11:40 +0000     6558 byte  es/__tests__/immutable.spec.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-03 18:11:40 +0000     6673 byte  es/__tests__/index.spec.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-03 18:11:40 +0000     2952 byte  es/__tests__/reducer.arrayInsert.spec.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-03 18:11:40 +0000     2018 byte  es/__tests__/reducer.arrayMove.spec.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-03 18:11:40 +0000     1263 byte  es/__tests__/reducer.arrayPop.spec.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-03 18:11:40 +0000     2297 byte  es/__tests__/reducer.arrayPush.spec.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-03 18:11:40 +0000    12920 byte  es/__tests__/reducer.arrayRemove.spec.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-03 18:11:40 +0000     2096 byte  es/__tests__/reducer.arrayRemoveAll.spec.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-03 18:11:40 +0000     1044 byte  es/__tests__/reducer.arrayShift.spec.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-03 18:11:40 +0000     6701 byte  es/__tests__/reducer.arraySplice.spec.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-03 18:11:40 +0000     1991 byte  es/__tests__/reducer.arraySwap.spec.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-03 18:11:40 +0000     1317 byte  es/__tests__/reducer.arrayUnshift.spec.js</tspan>
+<tspan x="10" y="762"> 46.  2017-04-03 18:11:40 +0000     1933 byte  es/__tests__/reducer.autofill.spec.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-03 18:11:40 +0000     8391 byte  es/__tests__/reducer.blur.spec.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-03 18:11:40 +0000     7005 byte  es/__tests__/reducer.change.spec.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-03 18:11:40 +0000      917 byte  es/__tests__/reducer.clearAsyncError.spec.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-03 18:11:40 +0000     1342 byte  es/__tests__/reducer.clearSubmit.spec.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-03 18:11:40 +0000     1481 byte  es/__tests__/reducer.clearSubmitErrors.spec.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-03 18:11:40 +0000     1172 byte  es/__tests__/reducer.destroy.spec.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-03 18:11:40 +0000     1995 byte  es/__tests__/reducer.focus.spec.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-03 18:11:40 +0000     9941 byte  es/__tests__/reducer.initialize.spec.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-03 18:11:40 +0000     4617 byte  es/__tests__/reducer.plugin.spec.js</tspan>
+<tspan x="10" y="922"> 56.  2017-04-03 18:11:40 +0000     1541 byte  es/__tests__/reducer.registerField.spec.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-03 18:11:40 +0000     3164 byte  es/__tests__/reducer.reset.spec.js</tspan>
+<tspan x="10" y="954"> 58.  2017-04-03 18:11:40 +0000     2196 byte  es/__tests__/reducer.setSubmitFailed.spec.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-03 18:11:40 +0000     1568 byte  es/__tests__/reducer.setSubmitSuceeded.spec.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-03 18:11:40 +0000     4888 byte  es/__tests__/reducer.spec.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-03 18:11:40 +0000     1247 byte  es/__tests__/reducer.startAsyncValidation.spec.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-03 18:11:40 +0000     1051 byte  es/__tests__/reducer.startSubmit.spec.js</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-03 18:11:40 +0000     6017 byte  es/__tests__/reducer.stopAsyncValidation.spec.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-03 18:11:40 +0000    10209 byte  es/__tests__/reducer.stopSubmit.spec.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-03 18:11:40 +0000     1340 byte  es/__tests__/reducer.submit.spec.js</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-03 18:11:40 +0000     2223 byte  es/__tests__/reducer.touch.spec.js</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-03 18:11:40 +0000     2079 byte  es/__tests__/reducer.unregisterField.spec.js</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-03 18:11:40 +0000     4685 byte  es/__tests__/reducer.untouch.spec.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-03 18:11:40 +0000     2815 byte  es/__tests__/reducer.updateSyncErrors.spec.js</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-03 18:11:40 +0000     2850 byte  es/__tests__/reducer.updateSyncWarnings.spec.js</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-03 18:11:40 +0000   152181 byte  es/__tests__/reduxForm.spec.js</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-03 18:11:40 +0000      183 byte  es/__tests__/setup.js</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-03 18:11:40 +0000     2615 byte  es/__tests__/values.spec.js</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-03 18:11:40 +0000     1815 byte  es/actionTypes.js</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-03 18:11:40 +0000     7501 byte  es/actions.js</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-03 18:11:40 +0000      750 byte  es/asyncValidation.js</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-03 18:11:40 +0000     3003 byte  es/createAll.js</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-03 18:11:40 +0000     3457 byte  es/createFieldArrayProps.js</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-03 18:11:40 +0000     3500 byte  es/createFieldProps.js</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-03 18:11:40 +0000      683 byte  es/defaultShouldAsyncValidate.js</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-03 18:11:40 +0000      528 byte  es/defaultShouldValidate.js</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-03 18:11:40 +0000     1065 byte  es/deleteInWithCleanUp.js</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-03 18:11:40 +0000     7951 byte  es/events/__tests__/getValue.spec.js</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-03 18:11:40 +0000     1086 byte  es/events/__tests__/isEvent.spec.js</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-03 18:11:40 +0000     1541 byte  es/events/__tests__/onChangeValue.spec.js</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-03 18:11:40 +0000     1060 byte  es/events/__tests__/silenceEvent.spec.js</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-03 18:11:40 +0000     1829 byte  es/events/__tests__/silenceEvents.spec.js</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-03 18:11:40 +0000     1189 byte  es/events/getValue.js</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-03 18:11:40 +0000      152 byte  es/events/isEvent.js</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-03 18:11:40 +0000      518 byte  es/events/onChangeValue.js</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-03 18:11:40 +0000      200 byte  es/events/silenceEvent.js</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-03 18:11:40 +0000      420 byte  es/events/silenceEvents.js</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-03 18:11:40 +0000     1317 byte  es/fieldKeys.js</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-03 18:11:40 +0000     1168 byte  es/formValueSelector.js</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-03 18:11:40 +0000     2638 byte  es/generateFields.js</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-03 18:11:40 +0000      841 byte  es/generateValidator.js</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-03 18:11:40 +0000     3420 byte  es/handleSubmit.js</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-03 18:11:40 +0000      788 byte  es/hasError.js</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-03 18:11:40 +0000     3105 byte  es/immutable.js</tspan>
+<tspan x="10" y="1626">100.  2017-04-03 18:11:40 +0000     3093 byte  es/index.js</tspan>
+<tspan x="10" y="1642">101.  2017-04-03 18:11:40 +0000      335 byte  es/isChecked.js</tspan>
+<tspan x="10" y="1658">102.  2017-04-03 18:11:40 +0000      175 byte  es/isReactNative.js</tspan>
+<tspan x="10" y="1674">103.  2017-04-03 18:11:40 +0000     3480 byte  es/propTypes.js</tspan>
+<tspan x="10" y="1690">104.  2017-04-03 18:11:40 +0000    19942 byte  es/reducer.js</tspan>
+<tspan x="10" y="1706">105.  2017-04-03 18:11:40 +0000    36812 byte  es/reduxForm.js</tspan>
+<tspan x="10" y="1722">106.  2017-04-03 18:11:40 +0000     1964 byte  es/selectors/__tests__/getFormAsyncErrors.spec.js</tspan>
+<tspan x="10" y="1738">107.  2017-04-03 18:11:40 +0000     1776 byte  es/selectors/__tests__/getFormInitialValues.spec.\</tspan>
 <tspan x="10" y="1754">js</tspan>
-<tspan x="10" y="1770">108.  2017-04-03 18:10:18 +0000     1806 byte  es/selectors/__tests__/getFormNames.spec.js</tspan>
-<tspan x="10" y="1786">109.  2017-04-03 18:10:18 +0000     1981 byte  es/selectors/__tests__/getFormSubmitErrors.spec.j\</tspan>
+<tspan x="10" y="1770">108.  2017-04-03 18:11:40 +0000     1806 byte  es/selectors/__tests__/getFormNames.spec.js</tspan>
+<tspan x="10" y="1786">109.  2017-04-03 18:11:40 +0000     1981 byte  es/selectors/__tests__/getFormSubmitErrors.spec.j\</tspan>
 <tspan x="10" y="1802">s</tspan>
-<tspan x="10" y="1818">110.  2017-04-03 18:10:18 +0000     1947 byte  es/selectors/__tests__/getFormSyncErrors.spec.js</tspan>
-<tspan x="10" y="1834">111.  2017-04-03 18:10:18 +0000     1967 byte  es/selectors/__tests__/getFormSyncWarnings.spec.j\</tspan>
+<tspan x="10" y="1818">110.  2017-04-03 18:11:40 +0000     1947 byte  es/selectors/__tests__/getFormSyncErrors.spec.js</tspan>
+<tspan x="10" y="1834">111.  2017-04-03 18:11:40 +0000     1967 byte  es/selectors/__tests__/getFormSyncWarnings.spec.j\</tspan>
 <tspan x="10" y="1850">s</tspan>
-<tspan x="10" y="1866">112.  2017-04-03 18:10:18 +0000     1675 byte  es/selectors/__tests__/getFormValues.spec.js</tspan>
-<tspan x="10" y="1882">113.  2017-04-03 18:10:18 +0000     1620 byte  es/selectors/__tests__/hasSubmitFailed.spec.js</tspan>
-<tspan x="10" y="1898">114.  2017-04-03 18:10:18 +0000     1668 byte  es/selectors/__tests__/hasSubmitSucceeded.spec.js</tspan>
-<tspan x="10" y="1914">115.  2017-04-03 18:10:18 +0000     2215 byte  es/selectors/__tests__/isDirty.spec.js</tspan>
-<tspan x="10" y="1930">116.  2017-04-03 18:10:18 +0000     8015 byte  es/selectors/__tests__/isInvalid.spec.js</tspan>
-<tspan x="10" y="1946">117.  2017-04-03 18:10:18 +0000     2258 byte  es/selectors/__tests__/isPristine.spec.js</tspan>
-<tspan x="10" y="1962">118.  2017-04-03 18:10:18 +0000     1574 byte  es/selectors/__tests__/isSubmitting.spec.js</tspan>
-<tspan x="10" y="1978">119.  2017-04-03 18:10:18 +0000     9781 byte  es/selectors/__tests__/isValid.spec.js</tspan>
-<tspan x="10" y="1994">120.  2017-04-03 18:10:18 +0000      428 byte  es/selectors/getFormAsyncErrors.js</tspan>
-<tspan x="10" y="2010">121.  2017-04-03 18:10:18 +0000      430 byte  es/selectors/getFormInitialValues.js</tspan>
-<tspan x="10" y="2026">122.  2017-04-03 18:10:18 +0000      406 byte  es/selectors/getFormNames.js</tspan>
-<tspan x="10" y="2042">123.  2017-04-03 18:10:18 +0000      432 byte  es/selectors/getFormSubmitErrors.js</tspan>
-<tspan x="10" y="2058">124.  2017-04-03 18:10:18 +0000      424 byte  es/selectors/getFormSyncErrors.js</tspan>
-<tspan x="10" y="2074">125.  2017-04-03 18:10:18 +0000      432 byte  es/selectors/getFormSyncWarnings.js</tspan>
-<tspan x="10" y="2090">126.  2017-04-03 18:10:18 +0000      408 byte  es/selectors/getFormValues.js</tspan>
-<tspan x="10" y="2106">127.  2017-04-03 18:10:18 +0000      462 byte  es/selectors/hasSubmitFailed.js</tspan>
-<tspan x="10" y="2122">128.  2017-04-03 18:10:18 +0000      474 byte  es/selectors/hasSubmitSucceeded.js</tspan>
-<tspan x="10" y="2138">129.  2017-04-03 18:10:18 +0000      321 byte  es/selectors/isDirty.js</tspan>
-<tspan x="10" y="2154">130.  2017-04-03 18:10:18 +0000      312 byte  es/selectors/isInvalid.js</tspan>
-<tspan x="10" y="2170">131.  2017-04-03 18:10:18 +0000      616 byte  es/selectors/isPristine.js</tspan>
-<tspan x="10" y="2186">132.  2017-04-03 18:10:18 +0000      451 byte  es/selectors/isSubmitting.js</tspan>
-<tspan x="10" y="2202">133.  2017-04-03 18:10:18 +0000     1609 byte  es/selectors/isValid.js</tspan>
-<tspan x="10" y="2218">134.  2017-04-03 18:10:18 +0000     4749 byte  es/structure/immutable/__tests__/deepEqual.spec.j\</tspan>
+<tspan x="10" y="1866">112.  2017-04-03 18:11:40 +0000     1675 byte  es/selectors/__tests__/getFormValues.spec.js</tspan>
+<tspan x="10" y="1882">113.  2017-04-03 18:11:40 +0000     1620 byte  es/selectors/__tests__/hasSubmitFailed.spec.js</tspan>
+<tspan x="10" y="1898">114.  2017-04-03 18:11:40 +0000     1668 byte  es/selectors/__tests__/hasSubmitSucceeded.spec.js</tspan>
+<tspan x="10" y="1914">115.  2017-04-03 18:11:40 +0000     2215 byte  es/selectors/__tests__/isDirty.spec.js</tspan>
+<tspan x="10" y="1930">116.  2017-04-03 18:11:40 +0000     8015 byte  es/selectors/__tests__/isInvalid.spec.js</tspan>
+<tspan x="10" y="1946">117.  2017-04-03 18:11:40 +0000     2258 byte  es/selectors/__tests__/isPristine.spec.js</tspan>
+<tspan x="10" y="1962">118.  2017-04-03 18:11:40 +0000     1574 byte  es/selectors/__tests__/isSubmitting.spec.js</tspan>
+<tspan x="10" y="1978">119.  2017-04-03 18:11:40 +0000     9781 byte  es/selectors/__tests__/isValid.spec.js</tspan>
+<tspan x="10" y="1994">120.  2017-04-03 18:11:40 +0000      428 byte  es/selectors/getFormAsyncErrors.js</tspan>
+<tspan x="10" y="2010">121.  2017-04-03 18:11:40 +0000      430 byte  es/selectors/getFormInitialValues.js</tspan>
+<tspan x="10" y="2026">122.  2017-04-03 18:11:40 +0000      406 byte  es/selectors/getFormNames.js</tspan>
+<tspan x="10" y="2042">123.  2017-04-03 18:11:40 +0000      432 byte  es/selectors/getFormSubmitErrors.js</tspan>
+<tspan x="10" y="2058">124.  2017-04-03 18:11:40 +0000      424 byte  es/selectors/getFormSyncErrors.js</tspan>
+<tspan x="10" y="2074">125.  2017-04-03 18:11:40 +0000      432 byte  es/selectors/getFormSyncWarnings.js</tspan>
+<tspan x="10" y="2090">126.  2017-04-03 18:11:40 +0000      408 byte  es/selectors/getFormValues.js</tspan>
+<tspan x="10" y="2106">127.  2017-04-03 18:11:40 +0000      462 byte  es/selectors/hasSubmitFailed.js</tspan>
+<tspan x="10" y="2122">128.  2017-04-03 18:11:40 +0000      474 byte  es/selectors/hasSubmitSucceeded.js</tspan>
+<tspan x="10" y="2138">129.  2017-04-03 18:11:40 +0000      321 byte  es/selectors/isDirty.js</tspan>
+<tspan x="10" y="2154">130.  2017-04-03 18:11:40 +0000      312 byte  es/selectors/isInvalid.js</tspan>
+<tspan x="10" y="2170">131.  2017-04-03 18:11:40 +0000      616 byte  es/selectors/isPristine.js</tspan>
+<tspan x="10" y="2186">132.  2017-04-03 18:11:40 +0000      451 byte  es/selectors/isSubmitting.js</tspan>
+<tspan x="10" y="2202">133.  2017-04-03 18:11:40 +0000     1609 byte  es/selectors/isValid.js</tspan>
+<tspan x="10" y="2218">134.  2017-04-03 18:11:40 +0000     4749 byte  es/structure/immutable/__tests__/deepEqual.spec.j\</tspan>
 <tspan x="10" y="2234">s</tspan>
-<tspan x="10" y="2250">135.  2017-04-03 18:10:18 +0000      618 byte  es/structure/immutable/__tests__/keys.spec.js</tspan>
-<tspan x="10" y="2266">136.  2017-04-03 18:10:18 +0000     6915 byte  es/structure/immutable/__tests__/setIn.spec.js</tspan>
-<tspan x="10" y="2282">137.  2017-04-03 18:10:18 +0000     2084 byte  es/structure/immutable/__tests__/splice.spec.js</tspan>
-<tspan x="10" y="2298">138.  2017-04-03 18:10:18 +0000      674 byte  es/structure/immutable/deepEqual.js</tspan>
-<tspan x="10" y="2314">139.  2017-04-03 18:10:18 +0000     1666 byte  es/structure/immutable/expectations.js</tspan>
-<tspan x="10" y="2330">140.  2017-04-03 18:10:18 +0000     1034 byte  es/structure/immutable/index.js</tspan>
-<tspan x="10" y="2346">141.  2017-04-03 18:10:18 +0000      186 byte  es/structure/immutable/keys.js</tspan>
-<tspan x="10" y="2362">142.  2017-04-03 18:10:18 +0000     1601 byte  es/structure/immutable/setIn.js</tspan>
-<tspan x="10" y="2378">143.  2017-04-03 18:10:18 +0000      743 byte  es/structure/immutable/splice.js</tspan>
-<tspan x="10" y="2394">144.  2017-04-03 18:10:18 +0000     3397 byte  es/structure/plain/__tests__/deepEqual.spec.js</tspan>
-<tspan x="10" y="2410">145.  2017-04-03 18:10:18 +0000     3130 byte  es/structure/plain/__tests__/deleteIn.spec.js</tspan>
-<tspan x="10" y="2426">146.  2017-04-03 18:10:18 +0000     2217 byte  es/structure/plain/__tests__/getIn.spec.js</tspan>
-<tspan x="10" y="2442">147.  2017-04-03 18:10:18 +0000      454 byte  es/structure/plain/__tests__/keys.spec.js</tspan>
-<tspan x="10" y="2458">148.  2017-04-03 18:10:18 +0000     2368 byte  es/structure/plain/__tests__/setIn.spec.js</tspan>
-<tspan x="10" y="2474">149.  2017-04-03 18:10:18 +0000     1991 byte  es/structure/plain/__tests__/splice.spec.js</tspan>
-<tspan x="10" y="2490">150.  2017-04-03 18:10:18 +0000      508 byte  es/structure/plain/deepEqual.js</tspan>
-<tspan x="10" y="2506">151.  2017-04-03 18:10:18 +0000     2233 byte  es/structure/plain/deleteIn.js</tspan>
-<tspan x="10" y="2522">152.  2017-04-03 18:10:18 +0000      971 byte  es/structure/plain/expectations.js</tspan>
-<tspan x="10" y="2538">153.  2017-04-03 18:10:18 +0000      373 byte  es/structure/plain/getIn.js</tspan>
-<tspan x="10" y="2554">154.  2017-04-03 18:10:18 +0000      560 byte  es/structure/plain/index.js</tspan>
-<tspan x="10" y="2570">155.  2017-04-03 18:10:18 +0000      100 byte  es/structure/plain/keys.js</tspan>
-<tspan x="10" y="2586">156.  2017-04-03 18:10:18 +0000     1186 byte  es/structure/plain/setIn.js</tspan>
-<tspan x="10" y="2602">157.  2017-04-03 18:10:18 +0000     1117 byte  es/structure/plain/splice.js</tspan>
-<tspan x="10" y="2618">158.  2017-04-03 18:10:18 +0000      992 byte  es/util/__tests__/eventMocks.spec.js</tspan>
-<tspan x="10" y="2634">159.  2017-04-03 18:10:18 +0000      448 byte  es/util/__tests__/getDisplayName.spec.js</tspan>
-<tspan x="10" y="2650">160.  2017-04-03 18:10:18 +0000      518 byte  es/util/__tests__/prefixName.spec.js</tspan>
-<tspan x="10" y="2666">161.  2017-04-03 18:10:18 +0000      911 byte  es/util/__tests__/shallowCompare.spec.js</tspan>
-<tspan x="10" y="2682">162.  2017-04-03 18:10:18 +0000       28 byte  es/util/eventConsts.js</tspan>
-<tspan x="10" y="2698">163.  2017-04-03 18:10:18 +0000      783 byte  es/util/eventMocks.js</tspan>
-<tspan x="10" y="2714">164.  2017-04-03 18:10:18 +0000      142 byte  es/util/getDisplayName.js</tspan>
-<tspan x="10" y="2730">165.  2017-04-03 18:10:18 +0000      171 byte  es/util/prefixName.js</tspan>
-<tspan x="10" y="2746">166.  2017-04-03 18:10:18 +0000      739 byte  es/util/shallowCompare.js</tspan>
-<tspan x="10" y="2762">167.  2017-04-03 18:10:18 +0000     1168 byte  es/values.js</tspan>
-<tspan x="10" y="2778">168.  2017-04-03 18:10:18 +0000       45 byte  immutable.js</tspan>
-<tspan x="10" y="2794">169.  2017-04-03 18:10:18 +0000    12440 byte  lib/ConnectedField.js</tspan>
-<tspan x="10" y="2810">170.  2017-04-03 18:10:18 +0000     8505 byte  lib/ConnectedFieldArray.js</tspan>
-<tspan x="10" y="2826">171.  2017-04-03 18:10:18 +0000    11640 byte  lib/ConnectedFields.js</tspan>
-<tspan x="10" y="2842">172.  2017-04-03 18:10:18 +0000     6761 byte  lib/Field.js</tspan>
-<tspan x="10" y="2858">173.  2017-04-03 18:10:18 +0000     6558 byte  lib/FieldArray.js</tspan>
-<tspan x="10" y="2874">174.  2017-04-03 18:10:18 +0000     7152 byte  lib/Fields.js</tspan>
-<tspan x="10" y="2890">175.  2017-04-03 18:10:18 +0000     2627 byte  lib/Form.js</tspan>
-<tspan x="10" y="2906">176.  2017-04-03 18:10:18 +0000     4031 byte  lib/FormSection.js</tspan>
-<tspan x="10" y="2922">177.  2017-04-03 18:10:18 +0000     1641 byte  lib/SubmissionError.js</tspan>
-<tspan x="10" y="2938">178.  2017-04-03 18:10:18 +0000   100393 byte  lib/__tests__/Field.spec.js</tspan>
-<tspan x="10" y="2954">179.  2017-04-03 18:10:18 +0000    97866 byte  lib/__tests__/FieldArray.spec.js</tspan>
-<tspan x="10" y="2970">180.  2017-04-03 18:10:18 +0000    78684 byte  lib/__tests__/Fields.spec.js</tspan>
-<tspan x="10" y="2986">181.  2017-04-03 18:10:18 +0000    11665 byte  lib/__tests__/Form.spec.js</tspan>
-<tspan x="10" y="3002">182.  2017-04-03 18:10:18 +0000    15521 byte  lib/__tests__/FormSection.spec.js</tspan>
-<tspan x="10" y="3018">183.  2017-04-03 18:10:18 +0000    16073 byte  lib/__tests__/actions.spec.js</tspan>
-<tspan x="10" y="3034">184.  2017-04-03 18:10:18 +0000     1371 byte  lib/__tests__/addExpectations.js</tspan>
-<tspan x="10" y="3050">185.  2017-04-03 18:10:18 +0000     2858 byte  lib/__tests__/asyncValidation.spec.js</tspan>
-<tspan x="10" y="3066">186.  2017-04-03 18:10:18 +0000    15177 byte  lib/__tests__/createFieldArrayProps.spec.js</tspan>
-<tspan x="10" y="3082">187.  2017-04-03 18:10:18 +0000    14984 byte  lib/__tests__/createFieldProps.spec.js</tspan>
-<tspan x="10" y="3098">188.  2017-04-03 18:10:18 +0000     1921 byte  lib/__tests__/defaultShouldAsyncValidate.spec.js</tspan>
-<tspan x="10" y="3114">189.  2017-04-03 18:10:18 +0000     2732 byte  lib/__tests__/defaultShouldValidate.spec.js</tspan>
-<tspan x="10" y="3130">190.  2017-04-03 18:10:18 +0000     3237 byte  lib/__tests__/deleteInWithCleanUp.spec.js</tspan>
-<tspan x="10" y="3146">191.  2017-04-03 18:10:18 +0000     1625 byte  lib/__tests__/fieldKeys.spec.js</tspan>
-<tspan x="10" y="3162">192.  2017-04-03 18:10:18 +0000     6976 byte  lib/__tests__/formValueSelector.spec.js</tspan>
-<tspan x="10" y="3178">193.  2017-04-03 18:10:18 +0000    14298 byte  lib/__tests__/generateFields.spec.js</tspan>
-<tspan x="10" y="3194">194.  2017-04-03 18:10:18 +0000     9509 byte  lib/__tests__/generateValidator.spec.js</tspan>
-<tspan x="10" y="3210">195.  2017-04-03 18:10:18 +0000    20361 byte  lib/__tests__/handleSubmit.spec.js</tspan>
-<tspan x="10" y="3226">196.  2017-04-03 18:10:18 +0000     5435 byte  lib/__tests__/hasError.spec.js</tspan>
-<tspan x="10" y="3242">197.  2017-04-03 18:10:18 +0000     7808 byte  lib/__tests__/immutable.spec.js</tspan>
-<tspan x="10" y="3258">198.  2017-04-03 18:10:18 +0000     7715 byte  lib/__tests__/index.spec.js</tspan>
-<tspan x="10" y="3274">199.  2017-04-03 18:10:18 +0000     3088 byte  lib/__tests__/reducer.arrayInsert.spec.js</tspan>
-<tspan x="10" y="3290">200.  2017-04-03 18:10:18 +0000     2142 byte  lib/__tests__/reducer.arrayMove.spec.js</tspan>
-<tspan x="10" y="3306">201.  2017-04-03 18:10:18 +0000     1374 byte  lib/__tests__/reducer.arrayPop.spec.js</tspan>
-<tspan x="10" y="3322">202.  2017-04-03 18:10:18 +0000     2449 byte  lib/__tests__/reducer.arrayPush.spec.js</tspan>
-<tspan x="10" y="3338">203.  2017-04-03 18:10:18 +0000    13168 byte  lib/__tests__/reducer.arrayRemove.spec.js</tspan>
-<tspan x="10" y="3354">204.  2017-04-03 18:10:18 +0000     2215 byte  lib/__tests__/reducer.arrayRemoveAll.spec.js</tspan>
-<tspan x="10" y="3370">205.  2017-04-03 18:10:18 +0000     1139 byte  lib/__tests__/reducer.arrayShift.spec.js</tspan>
-<tspan x="10" y="3386">206.  2017-04-03 18:10:18 +0000     6893 byte  lib/__tests__/reducer.arraySplice.spec.js</tspan>
-<tspan x="10" y="3402">207.  2017-04-03 18:10:18 +0000     2115 byte  lib/__tests__/reducer.arraySwap.spec.js</tspan>
-<tspan x="10" y="3418">208.  2017-04-03 18:10:18 +0000     1424 byte  lib/__tests__/reducer.arrayUnshift.spec.js</tspan>
-<tspan x="10" y="3434">209.  2017-04-03 18:10:18 +0000     2050 byte  lib/__tests__/reducer.autofill.spec.js</tspan>
-<tspan x="10" y="3450">210.  2017-04-03 18:10:18 +0000     8674 byte  lib/__tests__/reducer.blur.spec.js</tspan>
-<tspan x="10" y="3466">211.  2017-04-03 18:10:18 +0000     7258 byte  lib/__tests__/reducer.change.spec.js</tspan>
-<tspan x="10" y="3482">212.  2017-04-03 18:10:18 +0000     1021 byte  lib/__tests__/reducer.clearAsyncError.spec.js</tspan>
-<tspan x="10" y="3498">213.  2017-04-03 18:10:18 +0000     1450 byte  lib/__tests__/reducer.clearSubmit.spec.js</tspan>
-<tspan x="10" y="3514">214.  2017-04-03 18:10:18 +0000     1583 byte  lib/__tests__/reducer.clearSubmitErrors.spec.js</tspan>
-<tspan x="10" y="3530">215.  2017-04-03 18:10:18 +0000     1284 byte  lib/__tests__/reducer.destroy.spec.js</tspan>
-<tspan x="10" y="3546">216.  2017-04-03 18:10:18 +0000     2123 byte  lib/__tests__/reducer.focus.spec.js</tspan>
-<tspan x="10" y="3562">217.  2017-04-03 18:10:18 +0000    10232 byte  lib/__tests__/reducer.initialize.spec.js</tspan>
-<tspan x="10" y="3578">218.  2017-04-03 18:10:18 +0000     4735 byte  lib/__tests__/reducer.plugin.spec.js</tspan>
-<tspan x="10" y="3594">219.  2017-04-03 18:10:18 +0000     1661 byte  lib/__tests__/reducer.registerField.spec.js</tspan>
-<tspan x="10" y="3610">220.  2017-04-03 18:10:18 +0000     3306 byte  lib/__tests__/reducer.reset.spec.js</tspan>
-<tspan x="10" y="3626">221.  2017-04-03 18:10:18 +0000     2328 byte  lib/__tests__/reducer.setSubmitFailed.spec.js</tspan>
-<tspan x="10" y="3642">222.  2017-04-03 18:10:18 +0000     1683 byte  lib/__tests__/reducer.setSubmitSuceeded.spec.js</tspan>
-<tspan x="10" y="3658">223.  2017-04-03 18:10:18 +0000     8332 byte  lib/__tests__/reducer.spec.js</tspan>
-<tspan x="10" y="3674">224.  2017-04-03 18:10:18 +0000     1346 byte  lib/__tests__/reducer.startAsyncValidation.spec.j\</tspan>
+<tspan x="10" y="2250">135.  2017-04-03 18:11:40 +0000      618 byte  es/structure/immutable/__tests__/keys.spec.js</tspan>
+<tspan x="10" y="2266">136.  2017-04-03 18:11:40 +0000     6915 byte  es/structure/immutable/__tests__/setIn.spec.js</tspan>
+<tspan x="10" y="2282">137.  2017-04-03 18:11:40 +0000     2084 byte  es/structure/immutable/__tests__/splice.spec.js</tspan>
+<tspan x="10" y="2298">138.  2017-04-03 18:11:40 +0000      674 byte  es/structure/immutable/deepEqual.js</tspan>
+<tspan x="10" y="2314">139.  2017-04-03 18:11:40 +0000     1666 byte  es/structure/immutable/expectations.js</tspan>
+<tspan x="10" y="2330">140.  2017-04-03 18:11:40 +0000     1034 byte  es/structure/immutable/index.js</tspan>
+<tspan x="10" y="2346">141.  2017-04-03 18:11:40 +0000      186 byte  es/structure/immutable/keys.js</tspan>
+<tspan x="10" y="2362">142.  2017-04-03 18:11:40 +0000     1601 byte  es/structure/immutable/setIn.js</tspan>
+<tspan x="10" y="2378">143.  2017-04-03 18:11:40 +0000      743 byte  es/structure/immutable/splice.js</tspan>
+<tspan x="10" y="2394">144.  2017-04-03 18:11:40 +0000     3397 byte  es/structure/plain/__tests__/deepEqual.spec.js</tspan>
+<tspan x="10" y="2410">145.  2017-04-03 18:11:40 +0000     3130 byte  es/structure/plain/__tests__/deleteIn.spec.js</tspan>
+<tspan x="10" y="2426">146.  2017-04-03 18:11:40 +0000     2217 byte  es/structure/plain/__tests__/getIn.spec.js</tspan>
+<tspan x="10" y="2442">147.  2017-04-03 18:11:40 +0000      454 byte  es/structure/plain/__tests__/keys.spec.js</tspan>
+<tspan x="10" y="2458">148.  2017-04-03 18:11:40 +0000     2368 byte  es/structure/plain/__tests__/setIn.spec.js</tspan>
+<tspan x="10" y="2474">149.  2017-04-03 18:11:40 +0000     1991 byte  es/structure/plain/__tests__/splice.spec.js</tspan>
+<tspan x="10" y="2490">150.  2017-04-03 18:11:40 +0000      508 byte  es/structure/plain/deepEqual.js</tspan>
+<tspan x="10" y="2506">151.  2017-04-03 18:11:40 +0000     2233 byte  es/structure/plain/deleteIn.js</tspan>
+<tspan x="10" y="2522">152.  2017-04-03 18:11:40 +0000      971 byte  es/structure/plain/expectations.js</tspan>
+<tspan x="10" y="2538">153.  2017-04-03 18:11:40 +0000      373 byte  es/structure/plain/getIn.js</tspan>
+<tspan x="10" y="2554">154.  2017-04-03 18:11:40 +0000      560 byte  es/structure/plain/index.js</tspan>
+<tspan x="10" y="2570">155.  2017-04-03 18:11:40 +0000      100 byte  es/structure/plain/keys.js</tspan>
+<tspan x="10" y="2586">156.  2017-04-03 18:11:40 +0000     1186 byte  es/structure/plain/setIn.js</tspan>
+<tspan x="10" y="2602">157.  2017-04-03 18:11:40 +0000     1117 byte  es/structure/plain/splice.js</tspan>
+<tspan x="10" y="2618">158.  2017-04-03 18:11:40 +0000      992 byte  es/util/__tests__/eventMocks.spec.js</tspan>
+<tspan x="10" y="2634">159.  2017-04-03 18:11:40 +0000      448 byte  es/util/__tests__/getDisplayName.spec.js</tspan>
+<tspan x="10" y="2650">160.  2017-04-03 18:11:40 +0000      518 byte  es/util/__tests__/prefixName.spec.js</tspan>
+<tspan x="10" y="2666">161.  2017-04-03 18:11:40 +0000      911 byte  es/util/__tests__/shallowCompare.spec.js</tspan>
+<tspan x="10" y="2682">162.  2017-04-03 18:11:40 +0000       28 byte  es/util/eventConsts.js</tspan>
+<tspan x="10" y="2698">163.  2017-04-03 18:11:40 +0000      783 byte  es/util/eventMocks.js</tspan>
+<tspan x="10" y="2714">164.  2017-04-03 18:11:40 +0000      142 byte  es/util/getDisplayName.js</tspan>
+<tspan x="10" y="2730">165.  2017-04-03 18:11:40 +0000      171 byte  es/util/prefixName.js</tspan>
+<tspan x="10" y="2746">166.  2017-04-03 18:11:40 +0000      739 byte  es/util/shallowCompare.js</tspan>
+<tspan x="10" y="2762">167.  2017-04-03 18:11:40 +0000     1168 byte  es/values.js</tspan>
+<tspan x="10" y="2778">168.  2017-04-03 18:11:40 +0000       45 byte  immutable.js</tspan>
+<tspan x="10" y="2794">169.  2017-04-03 18:11:40 +0000    12440 byte  lib/ConnectedField.js</tspan>
+<tspan x="10" y="2810">170.  2017-04-03 18:11:40 +0000     8505 byte  lib/ConnectedFieldArray.js</tspan>
+<tspan x="10" y="2826">171.  2017-04-03 18:11:40 +0000    11640 byte  lib/ConnectedFields.js</tspan>
+<tspan x="10" y="2842">172.  2017-04-03 18:11:40 +0000     6761 byte  lib/Field.js</tspan>
+<tspan x="10" y="2858">173.  2017-04-03 18:11:40 +0000     6558 byte  lib/FieldArray.js</tspan>
+<tspan x="10" y="2874">174.  2017-04-03 18:11:40 +0000     7152 byte  lib/Fields.js</tspan>
+<tspan x="10" y="2890">175.  2017-04-03 18:11:40 +0000     2627 byte  lib/Form.js</tspan>
+<tspan x="10" y="2906">176.  2017-04-03 18:11:40 +0000     4031 byte  lib/FormSection.js</tspan>
+<tspan x="10" y="2922">177.  2017-04-03 18:11:40 +0000     1641 byte  lib/SubmissionError.js</tspan>
+<tspan x="10" y="2938">178.  2017-04-03 18:11:40 +0000   100393 byte  lib/__tests__/Field.spec.js</tspan>
+<tspan x="10" y="2954">179.  2017-04-03 18:11:40 +0000    97866 byte  lib/__tests__/FieldArray.spec.js</tspan>
+<tspan x="10" y="2970">180.  2017-04-03 18:11:40 +0000    78684 byte  lib/__tests__/Fields.spec.js</tspan>
+<tspan x="10" y="2986">181.  2017-04-03 18:11:40 +0000    11665 byte  lib/__tests__/Form.spec.js</tspan>
+<tspan x="10" y="3002">182.  2017-04-03 18:11:40 +0000    15521 byte  lib/__tests__/FormSection.spec.js</tspan>
+<tspan x="10" y="3018">183.  2017-04-03 18:11:40 +0000    16073 byte  lib/__tests__/actions.spec.js</tspan>
+<tspan x="10" y="3034">184.  2017-04-03 18:11:40 +0000     1371 byte  lib/__tests__/addExpectations.js</tspan>
+<tspan x="10" y="3050">185.  2017-04-03 18:11:40 +0000     2858 byte  lib/__tests__/asyncValidation.spec.js</tspan>
+<tspan x="10" y="3066">186.  2017-04-03 18:11:40 +0000    15177 byte  lib/__tests__/createFieldArrayProps.spec.js</tspan>
+<tspan x="10" y="3082">187.  2017-04-03 18:11:40 +0000    14984 byte  lib/__tests__/createFieldProps.spec.js</tspan>
+<tspan x="10" y="3098">188.  2017-04-03 18:11:40 +0000     1921 byte  lib/__tests__/defaultShouldAsyncValidate.spec.js</tspan>
+<tspan x="10" y="3114">189.  2017-04-03 18:11:40 +0000     2732 byte  lib/__tests__/defaultShouldValidate.spec.js</tspan>
+<tspan x="10" y="3130">190.  2017-04-03 18:11:40 +0000     3237 byte  lib/__tests__/deleteInWithCleanUp.spec.js</tspan>
+<tspan x="10" y="3146">191.  2017-04-03 18:11:40 +0000     1625 byte  lib/__tests__/fieldKeys.spec.js</tspan>
+<tspan x="10" y="3162">192.  2017-04-03 18:11:40 +0000     6976 byte  lib/__tests__/formValueSelector.spec.js</tspan>
+<tspan x="10" y="3178">193.  2017-04-03 18:11:40 +0000    14298 byte  lib/__tests__/generateFields.spec.js</tspan>
+<tspan x="10" y="3194">194.  2017-04-03 18:11:40 +0000     9509 byte  lib/__tests__/generateValidator.spec.js</tspan>
+<tspan x="10" y="3210">195.  2017-04-03 18:11:40 +0000    20361 byte  lib/__tests__/handleSubmit.spec.js</tspan>
+<tspan x="10" y="3226">196.  2017-04-03 18:11:40 +0000     5435 byte  lib/__tests__/hasError.spec.js</tspan>
+<tspan x="10" y="3242">197.  2017-04-03 18:11:40 +0000     7808 byte  lib/__tests__/immutable.spec.js</tspan>
+<tspan x="10" y="3258">198.  2017-04-03 18:11:40 +0000     7715 byte  lib/__tests__/index.spec.js</tspan>
+<tspan x="10" y="3274">199.  2017-04-03 18:11:40 +0000     3088 byte  lib/__tests__/reducer.arrayInsert.spec.js</tspan>
+<tspan x="10" y="3290">200.  2017-04-03 18:11:40 +0000     2142 byte  lib/__tests__/reducer.arrayMove.spec.js</tspan>
+<tspan x="10" y="3306">201.  2017-04-03 18:11:40 +0000     1374 byte  lib/__tests__/reducer.arrayPop.spec.js</tspan>
+<tspan x="10" y="3322">202.  2017-04-03 18:11:40 +0000     2449 byte  lib/__tests__/reducer.arrayPush.spec.js</tspan>
+<tspan x="10" y="3338">203.  2017-04-03 18:11:40 +0000    13168 byte  lib/__tests__/reducer.arrayRemove.spec.js</tspan>
+<tspan x="10" y="3354">204.  2017-04-03 18:11:40 +0000     2215 byte  lib/__tests__/reducer.arrayRemoveAll.spec.js</tspan>
+<tspan x="10" y="3370">205.  2017-04-03 18:11:40 +0000     1139 byte  lib/__tests__/reducer.arrayShift.spec.js</tspan>
+<tspan x="10" y="3386">206.  2017-04-03 18:11:40 +0000     6893 byte  lib/__tests__/reducer.arraySplice.spec.js</tspan>
+<tspan x="10" y="3402">207.  2017-04-03 18:11:40 +0000     2115 byte  lib/__tests__/reducer.arraySwap.spec.js</tspan>
+<tspan x="10" y="3418">208.  2017-04-03 18:11:40 +0000     1424 byte  lib/__tests__/reducer.arrayUnshift.spec.js</tspan>
+<tspan x="10" y="3434">209.  2017-04-03 18:11:40 +0000     2050 byte  lib/__tests__/reducer.autofill.spec.js</tspan>
+<tspan x="10" y="3450">210.  2017-04-03 18:11:40 +0000     8674 byte  lib/__tests__/reducer.blur.spec.js</tspan>
+<tspan x="10" y="3466">211.  2017-04-03 18:11:40 +0000     7258 byte  lib/__tests__/reducer.change.spec.js</tspan>
+<tspan x="10" y="3482">212.  2017-04-03 18:11:40 +0000     1021 byte  lib/__tests__/reducer.clearAsyncError.spec.js</tspan>
+<tspan x="10" y="3498">213.  2017-04-03 18:11:40 +0000     1450 byte  lib/__tests__/reducer.clearSubmit.spec.js</tspan>
+<tspan x="10" y="3514">214.  2017-04-03 18:11:40 +0000     1583 byte  lib/__tests__/reducer.clearSubmitErrors.spec.js</tspan>
+<tspan x="10" y="3530">215.  2017-04-03 18:11:40 +0000     1284 byte  lib/__tests__/reducer.destroy.spec.js</tspan>
+<tspan x="10" y="3546">216.  2017-04-03 18:11:40 +0000     2123 byte  lib/__tests__/reducer.focus.spec.js</tspan>
+<tspan x="10" y="3562">217.  2017-04-03 18:11:40 +0000    10232 byte  lib/__tests__/reducer.initialize.spec.js</tspan>
+<tspan x="10" y="3578">218.  2017-04-03 18:11:40 +0000     4735 byte  lib/__tests__/reducer.plugin.spec.js</tspan>
+<tspan x="10" y="3594">219.  2017-04-03 18:11:40 +0000     1661 byte  lib/__tests__/reducer.registerField.spec.js</tspan>
+<tspan x="10" y="3610">220.  2017-04-03 18:11:40 +0000     3306 byte  lib/__tests__/reducer.reset.spec.js</tspan>
+<tspan x="10" y="3626">221.  2017-04-03 18:11:40 +0000     2328 byte  lib/__tests__/reducer.setSubmitFailed.spec.js</tspan>
+<tspan x="10" y="3642">222.  2017-04-03 18:11:40 +0000     1683 byte  lib/__tests__/reducer.setSubmitSuceeded.spec.js</tspan>
+<tspan x="10" y="3658">223.  2017-04-03 18:11:40 +0000     8332 byte  lib/__tests__/reducer.spec.js</tspan>
+<tspan x="10" y="3674">224.  2017-04-03 18:11:40 +0000     1346 byte  lib/__tests__/reducer.startAsyncValidation.spec.j\</tspan>
 <tspan x="10" y="3690">s</tspan>
-<tspan x="10" y="3706">225.  2017-04-03 18:10:18 +0000     1159 byte  lib/__tests__/reducer.startSubmit.spec.js</tspan>
-<tspan x="10" y="3722">226.  2017-04-03 18:10:18 +0000     6173 byte  lib/__tests__/reducer.stopAsyncValidation.spec.js</tspan>
-<tspan x="10" y="3738">227.  2017-04-03 18:10:18 +0000    10444 byte  lib/__tests__/reducer.stopSubmit.spec.js</tspan>
-<tspan x="10" y="3754">228.  2017-04-03 18:10:18 +0000     1453 byte  lib/__tests__/reducer.submit.spec.js</tspan>
-<tspan x="10" y="3770">229.  2017-04-03 18:10:18 +0000     2351 byte  lib/__tests__/reducer.touch.spec.js</tspan>
-<tspan x="10" y="3786">230.  2017-04-03 18:10:18 +0000     2225 byte  lib/__tests__/reducer.unregisterField.spec.js</tspan>
-<tspan x="10" y="3802">231.  2017-04-03 18:10:18 +0000     4825 byte  lib/__tests__/reducer.untouch.spec.js</tspan>
-<tspan x="10" y="3818">232.  2017-04-03 18:10:18 +0000     2946 byte  lib/__tests__/reducer.updateSyncErrors.spec.js</tspan>
-<tspan x="10" y="3834">233.  2017-04-03 18:10:18 +0000     2979 byte  lib/__tests__/reducer.updateSyncWarnings.spec.js</tspan>
-<tspan x="10" y="3850">234.  2017-04-03 18:10:18 +0000   162322 byte  lib/__tests__/reduxForm.spec.js</tspan>
-<tspan x="10" y="3866">235.  2017-04-03 18:10:18 +0000      210 byte  lib/__tests__/setup.js</tspan>
-<tspan x="10" y="3882">236.  2017-04-03 18:10:18 +0000     3376 byte  lib/__tests__/values.spec.js</tspan>
-<tspan x="10" y="3898">237.  2017-04-03 18:10:18 +0000     2424 byte  lib/actionTypes.js</tspan>
-<tspan x="10" y="3914">238.  2017-04-03 18:10:18 +0000     8797 byte  lib/actions.js</tspan>
-<tspan x="10" y="3930">239.  2017-04-03 18:10:18 +0000     1005 byte  lib/asyncValidation.js</tspan>
-<tspan x="10" y="3946">240.  2017-04-03 18:10:18 +0000     5305 byte  lib/createAll.js</tspan>
-<tspan x="10" y="3962">241.  2017-04-03 18:10:18 +0000     3541 byte  lib/createFieldArrayProps.js</tspan>
-<tspan x="10" y="3978">242.  2017-04-03 18:10:18 +0000     3584 byte  lib/createFieldProps.js</tspan>
-<tspan x="10" y="3994">243.  2017-04-03 18:10:18 +0000      766 byte  lib/defaultShouldAsyncValidate.js</tspan>
-<tspan x="10" y="4010">244.  2017-04-03 18:10:18 +0000      611 byte  lib/defaultShouldValidate.js</tspan>
-<tspan x="10" y="4026">245.  2017-04-03 18:10:18 +0000     1310 byte  lib/deleteInWithCleanUp.js</tspan>
-<tspan x="10" y="4042">246.  2017-04-03 18:10:18 +0000    10327 byte  lib/events/__tests__/getValue.spec.js</tspan>
-<tspan x="10" y="4058">247.  2017-04-03 18:10:18 +0000     1660 byte  lib/events/__tests__/isEvent.spec.js</tspan>
-<tspan x="10" y="4074">248.  2017-04-03 18:10:18 +0000     2014 byte  lib/events/__tests__/onChangeValue.spec.js</tspan>
-<tspan x="10" y="4090">249.  2017-04-03 18:10:18 +0000     1661 byte  lib/events/__tests__/silenceEvent.spec.js</tspan>
-<tspan x="10" y="4106">250.  2017-04-03 18:10:18 +0000     2387 byte  lib/events/__tests__/silenceEvents.spec.js</tspan>
-<tspan x="10" y="4122">251.  2017-04-03 18:10:18 +0000     1440 byte  lib/events/getValue.js</tspan>
-<tspan x="10" y="4138">252.  2017-04-03 18:10:18 +0000      235 byte  lib/events/isEvent.js</tspan>
-<tspan x="10" y="4154">253.  2017-04-03 18:10:18 +0000      849 byte  lib/events/onChangeValue.js</tspan>
-<tspan x="10" y="4170">254.  2017-04-03 18:10:18 +0000      451 byte  lib/events/silenceEvent.js</tspan>
-<tspan x="10" y="4186">255.  2017-04-03 18:10:18 +0000      681 byte  lib/events/silenceEvents.js</tspan>
-<tspan x="10" y="4202">256.  2017-04-03 18:10:18 +0000     1331 byte  lib/fieldKeys.js</tspan>
-<tspan x="10" y="4218">257.  2017-04-03 18:10:18 +0000     1500 byte  lib/formValueSelector.js</tspan>
-<tspan x="10" y="4234">258.  2017-04-03 18:10:18 +0000     2652 byte  lib/generateFields.js</tspan>
-<tspan x="10" y="4250">259.  2017-04-03 18:10:18 +0000     1083 byte  lib/generateValidator.js</tspan>
-<tspan x="10" y="4266">260.  2017-04-03 18:10:18 +0000     3767 byte  lib/handleSubmit.js</tspan>
-<tspan x="10" y="4282">261.  2017-04-03 18:10:18 +0000      871 byte  lib/hasError.js</tspan>
-<tspan x="10" y="4298">262.  2017-04-03 18:10:18 +0000     5805 byte  lib/immutable.js</tspan>
-<tspan x="10" y="4314">263.  2017-04-03 18:10:18 +0000     5785 byte  lib/index.js</tspan>
-<tspan x="10" y="4330">264.  2017-04-03 18:10:18 +0000      418 byte  lib/isChecked.js</tspan>
-<tspan x="10" y="4346">265.  2017-04-03 18:10:18 +0000      258 byte  lib/isReactNative.js</tspan>
-<tspan x="10" y="4362">266.  2017-04-03 18:10:18 +0000     3610 byte  lib/propTypes.js</tspan>
-<tspan x="10" y="4378">267.  2017-04-03 18:10:18 +0000    20185 byte  lib/reducer.js</tspan>
-<tspan x="10" y="4394">268.  2017-04-03 18:10:18 +0000    38847 byte  lib/reduxForm.js</tspan>
-<tspan x="10" y="4410">269.  2017-04-03 18:10:18 +0000     2525 byte  lib/selectors/__tests__/getFormAsyncErrors.spec.j\</tspan>
+<tspan x="10" y="3706">225.  2017-04-03 18:11:40 +0000     1159 byte  lib/__tests__/reducer.startSubmit.spec.js</tspan>
+<tspan x="10" y="3722">226.  2017-04-03 18:11:40 +0000     6173 byte  lib/__tests__/reducer.stopAsyncValidation.spec.js</tspan>
+<tspan x="10" y="3738">227.  2017-04-03 18:11:40 +0000    10444 byte  lib/__tests__/reducer.stopSubmit.spec.js</tspan>
+<tspan x="10" y="3754">228.  2017-04-03 18:11:40 +0000     1453 byte  lib/__tests__/reducer.submit.spec.js</tspan>
+<tspan x="10" y="3770">229.  2017-04-03 18:11:40 +0000     2351 byte  lib/__tests__/reducer.touch.spec.js</tspan>
+<tspan x="10" y="3786">230.  2017-04-03 18:11:40 +0000     2225 byte  lib/__tests__/reducer.unregisterField.spec.js</tspan>
+<tspan x="10" y="3802">231.  2017-04-03 18:11:40 +0000     4825 byte  lib/__tests__/reducer.untouch.spec.js</tspan>
+<tspan x="10" y="3818">232.  2017-04-03 18:11:40 +0000     2946 byte  lib/__tests__/reducer.updateSyncErrors.spec.js</tspan>
+<tspan x="10" y="3834">233.  2017-04-03 18:11:40 +0000     2979 byte  lib/__tests__/reducer.updateSyncWarnings.spec.js</tspan>
+<tspan x="10" y="3850">234.  2017-04-03 18:11:40 +0000   162322 byte  lib/__tests__/reduxForm.spec.js</tspan>
+<tspan x="10" y="3866">235.  2017-04-03 18:11:40 +0000      210 byte  lib/__tests__/setup.js</tspan>
+<tspan x="10" y="3882">236.  2017-04-03 18:11:40 +0000     3376 byte  lib/__tests__/values.spec.js</tspan>
+<tspan x="10" y="3898">237.  2017-04-03 18:11:40 +0000     2424 byte  lib/actionTypes.js</tspan>
+<tspan x="10" y="3914">238.  2017-04-03 18:11:40 +0000     8797 byte  lib/actions.js</tspan>
+<tspan x="10" y="3930">239.  2017-04-03 18:11:40 +0000     1005 byte  lib/asyncValidation.js</tspan>
+<tspan x="10" y="3946">240.  2017-04-03 18:11:40 +0000     5305 byte  lib/createAll.js</tspan>
+<tspan x="10" y="3962">241.  2017-04-03 18:11:40 +0000     3541 byte  lib/createFieldArrayProps.js</tspan>
+<tspan x="10" y="3978">242.  2017-04-03 18:11:40 +0000     3584 byte  lib/createFieldProps.js</tspan>
+<tspan x="10" y="3994">243.  2017-04-03 18:11:40 +0000      766 byte  lib/defaultShouldAsyncValidate.js</tspan>
+<tspan x="10" y="4010">244.  2017-04-03 18:11:40 +0000      611 byte  lib/defaultShouldValidate.js</tspan>
+<tspan x="10" y="4026">245.  2017-04-03 18:11:40 +0000     1310 byte  lib/deleteInWithCleanUp.js</tspan>
+<tspan x="10" y="4042">246.  2017-04-03 18:11:40 +0000    10327 byte  lib/events/__tests__/getValue.spec.js</tspan>
+<tspan x="10" y="4058">247.  2017-04-03 18:11:40 +0000     1660 byte  lib/events/__tests__/isEvent.spec.js</tspan>
+<tspan x="10" y="4074">248.  2017-04-03 18:11:40 +0000     2014 byte  lib/events/__tests__/onChangeValue.spec.js</tspan>
+<tspan x="10" y="4090">249.  2017-04-03 18:11:40 +0000     1661 byte  lib/events/__tests__/silenceEvent.spec.js</tspan>
+<tspan x="10" y="4106">250.  2017-04-03 18:11:40 +0000     2387 byte  lib/events/__tests__/silenceEvents.spec.js</tspan>
+<tspan x="10" y="4122">251.  2017-04-03 18:11:40 +0000     1440 byte  lib/events/getValue.js</tspan>
+<tspan x="10" y="4138">252.  2017-04-03 18:11:40 +0000      235 byte  lib/events/isEvent.js</tspan>
+<tspan x="10" y="4154">253.  2017-04-03 18:11:40 +0000      849 byte  lib/events/onChangeValue.js</tspan>
+<tspan x="10" y="4170">254.  2017-04-03 18:11:40 +0000      451 byte  lib/events/silenceEvent.js</tspan>
+<tspan x="10" y="4186">255.  2017-04-03 18:11:40 +0000      681 byte  lib/events/silenceEvents.js</tspan>
+<tspan x="10" y="4202">256.  2017-04-03 18:11:40 +0000     1331 byte  lib/fieldKeys.js</tspan>
+<tspan x="10" y="4218">257.  2017-04-03 18:11:40 +0000     1500 byte  lib/formValueSelector.js</tspan>
+<tspan x="10" y="4234">258.  2017-04-03 18:11:40 +0000     2652 byte  lib/generateFields.js</tspan>
+<tspan x="10" y="4250">259.  2017-04-03 18:11:40 +0000     1083 byte  lib/generateValidator.js</tspan>
+<tspan x="10" y="4266">260.  2017-04-03 18:11:40 +0000     3767 byte  lib/handleSubmit.js</tspan>
+<tspan x="10" y="4282">261.  2017-04-03 18:11:40 +0000      871 byte  lib/hasError.js</tspan>
+<tspan x="10" y="4298">262.  2017-04-03 18:11:40 +0000     5805 byte  lib/immutable.js</tspan>
+<tspan x="10" y="4314">263.  2017-04-03 18:11:40 +0000     5785 byte  lib/index.js</tspan>
+<tspan x="10" y="4330">264.  2017-04-03 18:11:40 +0000      418 byte  lib/isChecked.js</tspan>
+<tspan x="10" y="4346">265.  2017-04-03 18:11:40 +0000      258 byte  lib/isReactNative.js</tspan>
+<tspan x="10" y="4362">266.  2017-04-03 18:11:40 +0000     3610 byte  lib/propTypes.js</tspan>
+<tspan x="10" y="4378">267.  2017-04-03 18:11:40 +0000    20185 byte  lib/reducer.js</tspan>
+<tspan x="10" y="4394">268.  2017-04-03 18:11:40 +0000    38847 byte  lib/reduxForm.js</tspan>
+<tspan x="10" y="4410">269.  2017-04-03 18:11:40 +0000     2525 byte  lib/selectors/__tests__/getFormAsyncErrors.spec.j\</tspan>
 <tspan x="10" y="4426">s</tspan>
-<tspan x="10" y="4442">270.  2017-04-03 18:10:18 +0000     2332 byte  lib/selectors/__tests__/getFormInitialValues.spec\</tspan>
+<tspan x="10" y="4442">270.  2017-04-03 18:11:40 +0000     2332 byte  lib/selectors/__tests__/getFormInitialValues.spec\</tspan>
 <tspan x="10" y="4458">.js</tspan>
-<tspan x="10" y="4474">271.  2017-04-03 18:10:18 +0000     2346 byte  lib/selectors/__tests__/getFormNames.spec.js</tspan>
-<tspan x="10" y="4490">272.  2017-04-03 18:10:18 +0000     2544 byte  lib/selectors/__tests__/getFormSubmitErrors.spec.\</tspan>
+<tspan x="10" y="4474">271.  2017-04-03 18:11:40 +0000     2346 byte  lib/selectors/__tests__/getFormNames.spec.js</tspan>
+<tspan x="10" y="4490">272.  2017-04-03 18:11:40 +0000     2544 byte  lib/selectors/__tests__/getFormSubmitErrors.spec.\</tspan>
 <tspan x="10" y="4506">js</tspan>
-<tspan x="10" y="4522">273.  2017-04-03 18:10:18 +0000     2506 byte  lib/selectors/__tests__/getFormSyncErrors.spec.js</tspan>
-<tspan x="10" y="4538">274.  2017-04-03 18:10:18 +0000     2536 byte  lib/selectors/__tests__/getFormSyncWarnings.spec.\</tspan>
+<tspan x="10" y="4522">273.  2017-04-03 18:11:40 +0000     2506 byte  lib/selectors/__tests__/getFormSyncErrors.spec.js</tspan>
+<tspan x="10" y="4538">274.  2017-04-03 18:11:40 +0000     2536 byte  lib/selectors/__tests__/getFormSyncWarnings.spec.\</tspan>
 <tspan x="10" y="4554">js</tspan>
-<tspan x="10" y="4570">275.  2017-04-03 18:10:18 +0000     2217 byte  lib/selectors/__tests__/getFormValues.spec.js</tspan>
-<tspan x="10" y="4586">276.  2017-04-03 18:10:18 +0000     2166 byte  lib/selectors/__tests__/hasSubmitFailed.spec.js</tspan>
-<tspan x="10" y="4602">277.  2017-04-03 18:10:18 +0000     2220 byte  lib/selectors/__tests__/hasSubmitSucceeded.spec.j\</tspan>
+<tspan x="10" y="4570">275.  2017-04-03 18:11:40 +0000     2217 byte  lib/selectors/__tests__/getFormValues.spec.js</tspan>
+<tspan x="10" y="4586">276.  2017-04-03 18:11:40 +0000     2166 byte  lib/selectors/__tests__/hasSubmitFailed.spec.js</tspan>
+<tspan x="10" y="4602">277.  2017-04-03 18:11:40 +0000     2220 byte  lib/selectors/__tests__/hasSubmitSucceeded.spec.j\</tspan>
 <tspan x="10" y="4618">s</tspan>
-<tspan x="10" y="4634">278.  2017-04-03 18:10:18 +0000     2745 byte  lib/selectors/__tests__/isDirty.spec.js</tspan>
-<tspan x="10" y="4650">279.  2017-04-03 18:10:18 +0000     8549 byte  lib/selectors/__tests__/isInvalid.spec.js</tspan>
-<tspan x="10" y="4666">280.  2017-04-03 18:10:18 +0000     2794 byte  lib/selectors/__tests__/isPristine.spec.js</tspan>
-<tspan x="10" y="4682">281.  2017-04-03 18:10:18 +0000     2114 byte  lib/selectors/__tests__/isSubmitting.spec.js</tspan>
-<tspan x="10" y="4698">282.  2017-04-03 18:10:18 +0000    10311 byte  lib/selectors/__tests__/isValid.spec.js</tspan>
-<tspan x="10" y="4714">283.  2017-04-03 18:10:18 +0000      511 byte  lib/selectors/getFormAsyncErrors.js</tspan>
-<tspan x="10" y="4730">284.  2017-04-03 18:10:18 +0000      513 byte  lib/selectors/getFormInitialValues.js</tspan>
-<tspan x="10" y="4746">285.  2017-04-03 18:10:18 +0000      489 byte  lib/selectors/getFormNames.js</tspan>
-<tspan x="10" y="4762">286.  2017-04-03 18:10:18 +0000      515 byte  lib/selectors/getFormSubmitErrors.js</tspan>
-<tspan x="10" y="4778">287.  2017-04-03 18:10:18 +0000      507 byte  lib/selectors/getFormSyncErrors.js</tspan>
-<tspan x="10" y="4794">288.  2017-04-03 18:10:18 +0000      515 byte  lib/selectors/getFormSyncWarnings.js</tspan>
-<tspan x="10" y="4810">289.  2017-04-03 18:10:18 +0000      491 byte  lib/selectors/getFormValues.js</tspan>
-<tspan x="10" y="4826">290.  2017-04-03 18:10:18 +0000      545 byte  lib/selectors/hasSubmitFailed.js</tspan>
-<tspan x="10" y="4842">291.  2017-04-03 18:10:18 +0000      557 byte  lib/selectors/hasSubmitSucceeded.js</tspan>
-<tspan x="10" y="4858">292.  2017-04-03 18:10:18 +0000      566 byte  lib/selectors/isDirty.js</tspan>
-<tspan x="10" y="4874">293.  2017-04-03 18:10:18 +0000      551 byte  lib/selectors/isInvalid.js</tspan>
-<tspan x="10" y="4890">294.  2017-04-03 18:10:18 +0000      699 byte  lib/selectors/isPristine.js</tspan>
-<tspan x="10" y="4906">295.  2017-04-03 18:10:18 +0000      534 byte  lib/selectors/isSubmitting.js</tspan>
-<tspan x="10" y="4922">296.  2017-04-03 18:10:18 +0000     1850 byte  lib/selectors/isValid.js</tspan>
-<tspan x="10" y="4938">297.  2017-04-03 18:10:18 +0000     5480 byte  lib/structure/immutable/__tests__/deepEqual.spec.\</tspan>
+<tspan x="10" y="4634">278.  2017-04-03 18:11:40 +0000     2745 byte  lib/selectors/__tests__/isDirty.spec.js</tspan>
+<tspan x="10" y="4650">279.  2017-04-03 18:11:40 +0000     8549 byte  lib/selectors/__tests__/isInvalid.spec.js</tspan>
+<tspan x="10" y="4666">280.  2017-04-03 18:11:40 +0000     2794 byte  lib/selectors/__tests__/isPristine.spec.js</tspan>
+<tspan x="10" y="4682">281.  2017-04-03 18:11:40 +0000     2114 byte  lib/selectors/__tests__/isSubmitting.spec.js</tspan>
+<tspan x="10" y="4698">282.  2017-04-03 18:11:40 +0000    10311 byte  lib/selectors/__tests__/isValid.spec.js</tspan>
+<tspan x="10" y="4714">283.  2017-04-03 18:11:40 +0000      511 byte  lib/selectors/getFormAsyncErrors.js</tspan>
+<tspan x="10" y="4730">284.  2017-04-03 18:11:40 +0000      513 byte  lib/selectors/getFormInitialValues.js</tspan>
+<tspan x="10" y="4746">285.  2017-04-03 18:11:40 +0000      489 byte  lib/selectors/getFormNames.js</tspan>
+<tspan x="10" y="4762">286.  2017-04-03 18:11:40 +0000      515 byte  lib/selectors/getFormSubmitErrors.js</tspan>
+<tspan x="10" y="4778">287.  2017-04-03 18:11:40 +0000      507 byte  lib/selectors/getFormSyncErrors.js</tspan>
+<tspan x="10" y="4794">288.  2017-04-03 18:11:40 +0000      515 byte  lib/selectors/getFormSyncWarnings.js</tspan>
+<tspan x="10" y="4810">289.  2017-04-03 18:11:40 +0000      491 byte  lib/selectors/getFormValues.js</tspan>
+<tspan x="10" y="4826">290.  2017-04-03 18:11:40 +0000      545 byte  lib/selectors/hasSubmitFailed.js</tspan>
+<tspan x="10" y="4842">291.  2017-04-03 18:11:40 +0000      557 byte  lib/selectors/hasSubmitSucceeded.js</tspan>
+<tspan x="10" y="4858">292.  2017-04-03 18:11:40 +0000      566 byte  lib/selectors/isDirty.js</tspan>
+<tspan x="10" y="4874">293.  2017-04-03 18:11:40 +0000      551 byte  lib/selectors/isInvalid.js</tspan>
+<tspan x="10" y="4890">294.  2017-04-03 18:11:40 +0000      699 byte  lib/selectors/isPristine.js</tspan>
+<tspan x="10" y="4906">295.  2017-04-03 18:11:40 +0000      534 byte  lib/selectors/isSubmitting.js</tspan>
+<tspan x="10" y="4922">296.  2017-04-03 18:11:40 +0000     1850 byte  lib/selectors/isValid.js</tspan>
+<tspan x="10" y="4938">297.  2017-04-03 18:11:40 +0000     5480 byte  lib/structure/immutable/__tests__/deepEqual.spec.\</tspan>
 <tspan x="10" y="4954">js</tspan>
-<tspan x="10" y="4970">298.  2017-04-03 18:10:18 +0000      978 byte  lib/structure/immutable/__tests__/keys.spec.js</tspan>
-<tspan x="10" y="4986">299.  2017-04-03 18:10:18 +0000     8772 byte  lib/structure/immutable/__tests__/setIn.spec.js</tspan>
-<tspan x="10" y="5002">300.  2017-04-03 18:10:18 +0000     2999 byte  lib/structure/immutable/__tests__/splice.spec.js</tspan>
-<tspan x="10" y="5018">301.  2017-04-03 18:10:18 +0000      968 byte  lib/structure/immutable/deepEqual.js</tspan>
-<tspan x="10" y="5034">302.  2017-04-03 18:10:18 +0000     2111 byte  lib/structure/immutable/expectations.js</tspan>
-<tspan x="10" y="5050">303.  2017-04-03 18:10:18 +0000     1658 byte  lib/structure/immutable/index.js</tspan>
-<tspan x="10" y="5066">304.  2017-04-03 18:10:18 +0000      292 byte  lib/structure/immutable/keys.js</tspan>
-<tspan x="10" y="5082">305.  2017-04-03 18:10:18 +0000     1888 byte  lib/structure/immutable/setIn.js</tspan>
-<tspan x="10" y="5098">306.  2017-04-03 18:10:18 +0000      857 byte  lib/structure/immutable/splice.js</tspan>
-<tspan x="10" y="5114">307.  2017-04-03 18:10:18 +0000     3682 byte  lib/structure/plain/__tests__/deepEqual.spec.js</tspan>
-<tspan x="10" y="5130">308.  2017-04-03 18:10:18 +0000     4043 byte  lib/structure/plain/__tests__/deleteIn.spec.js</tspan>
-<tspan x="10" y="5146">309.  2017-04-03 18:10:18 +0000     3064 byte  lib/structure/plain/__tests__/getIn.spec.js</tspan>
-<tspan x="10" y="5162">310.  2017-04-03 18:10:18 +0000      759 byte  lib/structure/plain/__tests__/keys.spec.js</tspan>
-<tspan x="10" y="5178">311.  2017-04-03 18:10:18 +0000     3050 byte  lib/structure/plain/__tests__/setIn.spec.js</tspan>
-<tspan x="10" y="5194">312.  2017-04-03 18:10:18 +0000     2510 byte  lib/structure/plain/__tests__/splice.spec.js</tspan>
-<tspan x="10" y="5210">313.  2017-04-03 18:10:18 +0000      763 byte  lib/structure/plain/deepEqual.js</tspan>
-<tspan x="10" y="5226">314.  2017-04-03 18:10:18 +0000     2479 byte  lib/structure/plain/deleteIn.js</tspan>
-<tspan x="10" y="5242">315.  2017-04-03 18:10:18 +0000     1334 byte  lib/structure/plain/expectations.js</tspan>
-<tspan x="10" y="5258">316.  2017-04-03 18:10:18 +0000      618 byte  lib/structure/plain/getIn.js</tspan>
-<tspan x="10" y="5274">317.  2017-04-03 18:10:18 +0000     1126 byte  lib/structure/plain/index.js</tspan>
-<tspan x="10" y="5290">318.  2017-04-03 18:10:18 +0000      183 byte  lib/structure/plain/keys.js</tspan>
-<tspan x="10" y="5306">319.  2017-04-03 18:10:18 +0000     1432 byte  lib/structure/plain/setIn.js</tspan>
-<tspan x="10" y="5322">320.  2017-04-03 18:10:18 +0000     1201 byte  lib/structure/plain/splice.js</tspan>
-<tspan x="10" y="5338">321.  2017-04-03 18:10:18 +0000     1589 byte  lib/util/__tests__/eventMocks.spec.js</tspan>
-<tspan x="10" y="5354">322.  2017-04-03 18:10:18 +0000      773 byte  lib/util/__tests__/getDisplayName.spec.js</tspan>
-<tspan x="10" y="5370">323.  2017-04-03 18:10:18 +0000      805 byte  lib/util/__tests__/prefixName.spec.js</tspan>
-<tspan x="10" y="5386">324.  2017-04-03 18:10:18 +0000     1236 byte  lib/util/__tests__/shallowCompare.spec.js</tspan>
-<tspan x="10" y="5402">325.  2017-04-03 18:10:18 +0000      119 byte  lib/util/eventConsts.js</tspan>
-<tspan x="10" y="5418">326.  2017-04-03 18:10:18 +0000      942 byte  lib/util/eventMocks.js</tspan>
-<tspan x="10" y="5434">327.  2017-04-03 18:10:18 +0000      225 byte  lib/util/getDisplayName.js</tspan>
-<tspan x="10" y="5450">328.  2017-04-03 18:10:18 +0000      266 byte  lib/util/prefixName.js</tspan>
-<tspan x="10" y="5466">329.  2017-04-03 18:10:18 +0000     1008 byte  lib/util/shallowCompare.js</tspan>
-<tspan x="10" y="5482">330.  2017-04-03 18:10:18 +0000     1272 byte  lib/values.js</tspan>
-<tspan x="10" y="5498">331.  2017-04-03 18:10:18 +0000     6281 byte  package.json</tspan>
+<tspan x="10" y="4970">298.  2017-04-03 18:11:40 +0000      978 byte  lib/structure/immutable/__tests__/keys.spec.js</tspan>
+<tspan x="10" y="4986">299.  2017-04-03 18:11:40 +0000     8772 byte  lib/structure/immutable/__tests__/setIn.spec.js</tspan>
+<tspan x="10" y="5002">300.  2017-04-03 18:11:40 +0000     2999 byte  lib/structure/immutable/__tests__/splice.spec.js</tspan>
+<tspan x="10" y="5018">301.  2017-04-03 18:11:40 +0000      968 byte  lib/structure/immutable/deepEqual.js</tspan>
+<tspan x="10" y="5034">302.  2017-04-03 18:11:40 +0000     2111 byte  lib/structure/immutable/expectations.js</tspan>
+<tspan x="10" y="5050">303.  2017-04-03 18:11:40 +0000     1658 byte  lib/structure/immutable/index.js</tspan>
+<tspan x="10" y="5066">304.  2017-04-03 18:11:40 +0000      292 byte  lib/structure/immutable/keys.js</tspan>
+<tspan x="10" y="5082">305.  2017-04-03 18:11:40 +0000     1888 byte  lib/structure/immutable/setIn.js</tspan>
+<tspan x="10" y="5098">306.  2017-04-03 18:11:40 +0000      857 byte  lib/structure/immutable/splice.js</tspan>
+<tspan x="10" y="5114">307.  2017-04-03 18:11:40 +0000     3682 byte  lib/structure/plain/__tests__/deepEqual.spec.js</tspan>
+<tspan x="10" y="5130">308.  2017-04-03 18:11:40 +0000     4043 byte  lib/structure/plain/__tests__/deleteIn.spec.js</tspan>
+<tspan x="10" y="5146">309.  2017-04-03 18:11:40 +0000     3064 byte  lib/structure/plain/__tests__/getIn.spec.js</tspan>
+<tspan x="10" y="5162">310.  2017-04-03 18:11:40 +0000      759 byte  lib/structure/plain/__tests__/keys.spec.js</tspan>
+<tspan x="10" y="5178">311.  2017-04-03 18:11:40 +0000     3050 byte  lib/structure/plain/__tests__/setIn.spec.js</tspan>
+<tspan x="10" y="5194">312.  2017-04-03 18:11:40 +0000     2510 byte  lib/structure/plain/__tests__/splice.spec.js</tspan>
+<tspan x="10" y="5210">313.  2017-04-03 18:11:40 +0000      763 byte  lib/structure/plain/deepEqual.js</tspan>
+<tspan x="10" y="5226">314.  2017-04-03 18:11:40 +0000     2479 byte  lib/structure/plain/deleteIn.js</tspan>
+<tspan x="10" y="5242">315.  2017-04-03 18:11:40 +0000     1334 byte  lib/structure/plain/expectations.js</tspan>
+<tspan x="10" y="5258">316.  2017-04-03 18:11:40 +0000      618 byte  lib/structure/plain/getIn.js</tspan>
+<tspan x="10" y="5274">317.  2017-04-03 18:11:40 +0000     1126 byte  lib/structure/plain/index.js</tspan>
+<tspan x="10" y="5290">318.  2017-04-03 18:11:40 +0000      183 byte  lib/structure/plain/keys.js</tspan>
+<tspan x="10" y="5306">319.  2017-04-03 18:11:40 +0000     1432 byte  lib/structure/plain/setIn.js</tspan>
+<tspan x="10" y="5322">320.  2017-04-03 18:11:40 +0000     1201 byte  lib/structure/plain/splice.js</tspan>
+<tspan x="10" y="5338">321.  2017-04-03 18:11:40 +0000     1589 byte  lib/util/__tests__/eventMocks.spec.js</tspan>
+<tspan x="10" y="5354">322.  2017-04-03 18:11:40 +0000      773 byte  lib/util/__tests__/getDisplayName.spec.js</tspan>
+<tspan x="10" y="5370">323.  2017-04-03 18:11:40 +0000      805 byte  lib/util/__tests__/prefixName.spec.js</tspan>
+<tspan x="10" y="5386">324.  2017-04-03 18:11:40 +0000     1236 byte  lib/util/__tests__/shallowCompare.spec.js</tspan>
+<tspan x="10" y="5402">325.  2017-04-03 18:11:40 +0000      119 byte  lib/util/eventConsts.js</tspan>
+<tspan x="10" y="5418">326.  2017-04-03 18:11:40 +0000      942 byte  lib/util/eventMocks.js</tspan>
+<tspan x="10" y="5434">327.  2017-04-03 18:11:40 +0000      225 byte  lib/util/getDisplayName.js</tspan>
+<tspan x="10" y="5450">328.  2017-04-03 18:11:40 +0000      266 byte  lib/util/prefixName.js</tspan>
+<tspan x="10" y="5466">329.  2017-04-03 18:11:40 +0000     1008 byte  lib/util/shallowCompare.js</tspan>
+<tspan x="10" y="5482">330.  2017-04-03 18:11:40 +0000     1272 byte  lib/values.js</tspan>
+<tspan x="10" y="5498">331.  2017-04-03 18:11:40 +0000     6281 byte  package.json</tspan>
 </text>
 </svg>
