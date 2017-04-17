@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://redux-form.com/"
-
-    >redux-form (v6.6.3)</a>
+    <a href="https://redux-form.com/">redux-form (v6.6.3)</a>
 </h1>
 <h4>A higher order component decorator for forms using Redux and React</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.redux-form">module redux-form</a><ol>
 
@@ -2856,7 +2849,7 @@
   var _this = _possibleConstructorReturn(this, (Field.__proto__ || Object.getPrototypeOf(Field)).call(this, props, context));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;Field must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('Field must be inside a component decorated with reduxForm()');
   }
 
   _this.normalize = _this.normalize.bind(_this);
@@ -2881,7 +2874,7 @@
 ));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;FieldArray must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('FieldArray must be inside a component decorated with reduxForm()');
   }
   return _this;
 }</pre></li>
@@ -2903,7 +2896,7 @@
   var _this = _possibleConstructorReturn(this, (Fields.__proto__ || Object.getPrototypeOf(Fields)).call(this, props, context));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;Fields must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('Fields must be inside a component decorated with reduxForm()');
   }
   return _this;
 }</pre></li>
@@ -2925,7 +2918,7 @@
   var _this = _possibleConstructorReturn(this, (Form.__proto__ || Object.getPrototypeOf(Form)).call(this, props, context));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;Form must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('Form must be inside a component decorated with reduxForm()');
   }
   return _this;
 }</pre></li>
@@ -2948,7 +2941,7 @@
 ));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;FormSection must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('FormSection must be inside a component decorated with reduxForm()');
   }
   return _this;
 }</pre></li>
@@ -2967,8 +2960,8 @@
     <li>description and source-code<pre class="apidocCodePre">function SubmissionError(errors) {
   _classCallCheck(this, SubmissionError);
 
-  var _this = _possibleConstructorReturn(this, (SubmissionError.__proto__ || Object.getPrototypeOf(SubmissionError)).call(this, &#x27;
-Submit Validation Failed&#x27;));
+  var _this = _possibleConstructorReturn(this, (SubmissionError.__proto__ || Object.getPrototypeOf(SubmissionError)).call(this, '
+Submit Validation Failed'));
 
   _this.errors = errors;
   return _this;
@@ -3114,10 +3107,10 @@ Submit Validation Failed&#x27;));
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function arraySwap(form, field, indexA, indexB) {
   if (indexA === indexB) {
-    throw new Error(&#x27;Swap indices cannot be equal&#x27;);
+    throw new Error('Swap indices cannot be equal');
   }
-  if (indexA &#x3c; 0 || indexB &#x3c; 0) {
-    throw new Error(&#x27;Swap indices cannot be negative&#x27;);
+  if (indexA &lt; 0 || indexB &lt; 0) {
+    throw new Error('Swap indices cannot be negative');
   }
   return { type: _actionTypes.ARRAY_SWAP, meta: { form: form, field: field, indexA: indexA, indexB: indexB } };
 }</pre></li>
@@ -3210,7 +3203,7 @@ Submit Validation Failed&#x27;));
     }
   }
 }, {
-  key: &#x27;handleFocus&#x27;,
+  key: 'handleFocus',
   value: function handleFocus(event) {
     var _props2 = this.props,
         name = _props2.name,
@@ -3242,7 +3235,7 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function destroy() {
-  for (var _len = arguments.length, form = Array(_len), _key = 0; _key &#x3c; _len; _key++) {
+  for (var _len = arguments.length, form = Array(_len), _key = 0; _key &lt; _len; _key++) {
     form[_key] = arguments[_key];
   }
 
@@ -3275,7 +3268,7 @@ Submit Validation Failed&#x27;));
     }
   }
 }, {
-  key: &#x27;handleBlur&#x27;,
+  key: 'handleBlur',
   value: function handleBlur(event) {
     var _props3 = this.props,
         name = _props3.name,
@@ -3292,23 +3285,23 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">formValueSelector = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
 
-  (0, _invariant2.default)(form, &#x27;Form value must be specified&#x27;);
+  (0, _invariant2.default)(form, 'Form value must be specified');
   return function (state) {
-    for (var _len = arguments.length, fields = Array(_len &#x3e; 1 ? _len - 1 : 0), _key = 1; _key &#x3c; _len; _key++) {
+    for (var _len = arguments.length, fields = Array(_len &gt; 1 ? _len - 1 : 0), _key = 1; _key &lt; _len; _key++) {
       fields[_key - 1] = arguments[_key];
     }
 
-    (0, _invariant2.default)(fields.length, &#x27;No fields specified&#x27;);
+    (0, _invariant2.default)(fields.length, 'No fields specified');
     return fields.length === 1 ?
     // only selecting one field, so return its value
-    getIn(getFormState(state), form + &#x27;.values.&#x27; + fields[0]) :
+    getIn(getFormState(state), form + '.values.' + fields[0]) :
     // selecting many fields, so return an object of field values
     fields.reduce(function (accumulator, field) {
-      var value = getIn(getFormState(state), form + &#x27;.values.&#x27; + field);
+      var value = getIn(getFormState(state), form + '.values.' + field);
       return value === undefined ? accumulator : _plain2.default.setIn(accumulator, field, value);
     }, {});
   };
@@ -3326,11 +3319,11 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormAsyncErrors = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.asyncErrors&#x27;);
+    return getIn(getFormState(state), form + '.asyncErrors');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3346,11 +3339,11 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormInitialValues = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.initial&#x27;);
+    return getIn(getFormState(state), form + '.initial');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3366,8 +3359,8 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormNames = function () {
-  var getFormState = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     return keys(getFormState(state));
@@ -3386,11 +3379,11 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormSubmitErrors = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.submitErrors&#x27;);
+    return getIn(getFormState(state), form + '.submitErrors');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3406,11 +3399,11 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormSyncErrors = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.syncErrors&#x27;);
+    return getIn(getFormState(state), form + '.syncErrors');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3426,11 +3419,11 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormSyncWarnings = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.syncWarnings&#x27;);
+    return getIn(getFormState(state), form + '.syncWarnings');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3446,11 +3439,11 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormValues = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.values&#x27;);
+    return getIn(getFormState(state), form + '.values');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3466,12 +3459,12 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">hasSubmitFailed = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     var formState = getFormState(state);
-    return getIn(formState, form + &#x27;.submitFailed&#x27;) || false;
+    return getIn(formState, form + '.submitFailed') || false;
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3487,12 +3480,12 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">hasSubmitSucceeded = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     var formState = getFormState(state);
-    return getIn(formState, form + &#x27;.submitSucceeded&#x27;) || false;
+    return getIn(formState, form + '.submitSucceeded') || false;
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3508,7 +3501,7 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function initialize(form, values, keepDirty) {
-  var otherMeta = arguments.length &#x3e; 3 &#x26;&#x26; arguments[3] !== undefined ? arguments[3] : {};
+  var otherMeta = arguments.length &gt; 3 &amp;&amp; arguments[3] !== undefined ? arguments[3] : {};
 
   if (keepDirty instanceof Object) {
     otherMeta = keepDirty;
@@ -3517,22 +3510,22 @@ Submit Validation Failed&#x27;));
   return { type: _actionTypes.INITIALIZE, meta: _extends({ form: form, keepDirty: keepDirty }, otherMeta), payload: values };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;initIfNeeded&#x27;,
+  key: 'initIfNeeded',
   value: function initIfNeeded(nextProps) {
     var enableReinitialize = this.props.enableReinitialize;
 
     if (nextProps) {
-      if ((enableReinitialize || !nextProps.initialized) &#x26;&#x26; !deepEqual(this.props.initialValues, nextProps.initialValues
+      if ((enableReinitialize || !nextProps.initialized) &amp;&amp; !deepEqual(this.props.initialValues, nextProps.initialValues
 )) {
-        var keepDirty = nextProps.initialized &#x26;&#x26; this.props.keepDirtyOnReinitialize;
+        var keepDirty = nextProps.initialized &amp;&amp; this.props.keepDirtyOnReinitialize;
         this.props.<span class="apidocCodeKeywordSpan">initialize</span>(nextProps.initialValues, keepDirty);
       }
-    } else if (this.props.initialValues &#x26;&#x26; (!this.props.initialized || enableReinitialize)) {
+    } else if (this.props.initialValues &amp;&amp; (!this.props.initialized || enableReinitialize)) {
       this.props.initialize(this.props.initialValues, this.props.keepDirtyOnReinitialize);
     }
   }
 }, {
-  key: &#x27;updateSyncErrorsIfNeeded&#x27;,
+  key: 'updateSyncErrorsIfNeeded',
 ...</pre></li>
     </ul>
 
@@ -3557,12 +3550,12 @@ Submit Validation Failed&#x27;));
     });
   }
 }, {
-  key: &#x27;dirty&#x27;,
+  key: 'dirty',
   get: function get() {
     return this.refs.connected.getWrappedInstance().<span class="apidocCodeKeywordSpan">isDirty</span>();
   }
 }, {
-  key: &#x27;pristine&#x27;,
+  key: 'pristine',
   get: function get() {
     return !this.dirty;
   }
@@ -3598,30 +3591,30 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isPristine = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     var formState = getFormState(state);
-    var initial = getIn(formState, form + &#x27;.initial&#x27;) || empty;
-    var values = getIn(formState, form + &#x27;.values&#x27;) || initial;
+    var initial = getIn(formState, form + '.initial') || empty;
+    var values = getIn(formState, form + '.values') || initial;
     return deepEqual(initial, values);
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;dirty&#x27;,
+  key: 'dirty',
   get: function get() {
     return !this.pristine;
   }
 }, {
-  key: &#x27;pristine&#x27;,
+  key: 'pristine',
   get: function get() {
     return this.refs.connected.getWrappedInstance().<span class="apidocCodeKeywordSpan">isPristine</span>();
   }
 }, {
-  key: &#x27;value&#x27;,
+  key: 'value',
   get: function get() {
-    return this.refs.connected &#x26;&#x26; this.refs.connected.getWrappedInstance().getValue();
+    return this.refs.connected &amp;&amp; this.refs.connected.getWrappedInstance().getValue();
   }
 }]);
 ...</pre></li>
@@ -3637,12 +3630,12 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isSubmitting = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     var formState = getFormState(state);
-    return getIn(formState, form + &#x27;.submitting&#x27;) || false;
+    return getIn(formState, form + '.submitting') || false;
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -3658,38 +3651,38 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isValid = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
-  var ignoreSubmitErrors = arguments.length &#x3e; 2 &#x26;&#x26; arguments[2] !== undefined ? arguments[2] : false;
+  var ignoreSubmitErrors = arguments.length &gt; 2 &amp;&amp; arguments[2] !== undefined ? arguments[2] : false;
   return function (state) {
     var formState = getFormState(state);
-    var syncError = getIn(formState, form + &#x27;.syncError&#x27;);
+    var syncError = getIn(formState, form + '.syncError');
     if (syncError) {
       return false;
     }
     if (!ignoreSubmitErrors) {
-      var error = getIn(formState, form + &#x27;.error&#x27;);
+      var error = getIn(formState, form + '.error');
       if (error) {
         return false;
       }
     }
-    var syncErrors = getIn(formState, form + &#x27;.syncErrors&#x27;);
-    var asyncErrors = getIn(formState, form + &#x27;.asyncErrors&#x27;);
-    var submitErrors = ignoreSubmitErrors ? undefined : getIn(formState, form + &#x27;.submitErrors&#x27;);
-    if (!syncErrors &#x26;&#x26; !asyncErrors &#x26;&#x26; !submitErrors) {
+    var syncErrors = getIn(formState, form + '.syncErrors');
+    var asyncErrors = getIn(formState, form + '.asyncErrors');
+    var submitErrors = ignoreSubmitErrors ? undefined : getIn(formState, form + '.submitErrors');
+    if (!syncErrors &amp;&amp; !asyncErrors &amp;&amp; !submitErrors) {
       return true;
     }
 
-    var registeredFields = getIn(formState, form + &#x27;.registeredFields&#x27;);
+    var registeredFields = getIn(formState, form + '.registeredFields');
     if (!registeredFields) {
       return true;
     }
 
     return !keys(registeredFields).filter(function (name) {
-      return getIn(registeredFields, &#x27;[\&#x27;&#x27; + name + &#x27;\&#x27;].count&#x27;) &#x3e; 0;
+      return getIn(registeredFields, '[\'' + name + '\'].count') &gt; 0;
     }).some(function (name) {
-      return hasError(getIn(registeredFields, &#x27;[\&#x27;&#x27; + name + &#x27;\&#x27;]&#x27;), syncErrors, asyncErrors, submitErrors);
+      return hasError(getIn(registeredFields, '[\'' + name + '\']'), syncErrors, asyncErrors, submitErrors);
     });
   };
 }</pre></li>
@@ -3699,12 +3692,12 @@ Submit Validation Failed&#x27;));
     }));
   }
 }, {
-  key: &#x27;valid&#x27;,
+  key: 'valid',
   get: function get() {
     return this.refs.wrapped.getWrappedInstance().<span class="apidocCodeKeywordSpan">isValid</span>();
   }
 }, {
-  key: &#x27;invalid&#x27;,
+  key: 'invalid',
   get: function get() {
     return !this.valid;
   }
@@ -3826,10 +3819,10 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">reducer = function () {
-  var state = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : empty;
-  var action = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+  var state = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : empty;
+  var action = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
 
-  var form = action &#x26;&#x26; action.meta &#x26;&#x26; action.meta.form;
+  var form = action &amp;&amp; action.meta &amp;&amp; action.meta.form;
   if (!form || !isReduxFormAction(action)) {
     return state;
   }
@@ -3857,10 +3850,10 @@ Submit Validation Failed&#x27;));
     <li>description and source-code<pre class="apidocCodePre">function plugin(reducers) {
   var _this = this;
 
-  // use &#x27;function&#x27; keyword to enable &#x27;this&#x27;
+  // use 'function' keyword to enable 'this'
   return decorate(function () {
-    var state = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : empty;
-    var action = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+    var state = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : empty;
+    var action = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
     return Object.keys(reducers).reduce(function (accumulator, key) {
       var previousState = getIn(accumulator, key);
       var nextState = reducers[key](previousState, action, getIn(state, key));
@@ -3891,7 +3884,7 @@ Submit Validation Failed&#x27;));
     enableReinitialize: false,
     keepDirtyOnReinitialize: false,
     getFormState: function getFormState(state) {
-      return getIn(state, &#x27;form&#x27;);
+      return getIn(state, 'form');
     },
     pure: true,
     forceUnregisterOnUnmount: false
@@ -3922,7 +3915,7 @@ Submit Validation Failed&#x27;));
       }
 
       _createClass(Form, [{
-        key: &#x27;getChildContext&#x27;,
+        key: 'getChildContext',
         value: function getChildContext() {
           var _this2 = this;
 
@@ -3943,45 +3936,45 @@ Submit Validation Failed&#x27;));
           };
         }
       }, {
-        key: &#x27;initIfNeeded&#x27;,
+        key: 'initIfNeeded',
         value: function initIfNeeded(nextProps) {
           var enableReinitialize = this.props.enableReinitialize;
 
           if (nextProps) {
-            if ((enableReinitialize || !nextProps.initialized) &#x26;&#x26; !deepEqual(this.props.initialValues, nextProps.initialValues)) {
-              var keepDirty = nextProps.initialized &#x26;&#x26; this.props.keepDirtyOnReinitialize;
+            if ((enableReinitialize || !nextProps.initialized) &amp;&amp; !deepEqual(this.props.initialValues, nextProps.initialValues)) {
+              var keepDirty = nextProps.initialized &amp;&amp; this.props.keepDirtyOnReinitialize;
               this.props.initialize(nextProps.initialValues, keepDirty);
             }
-          } else if (this.props.initialValues &#x26;&#x26; (!this.props.initialized || enableReinitialize)) {
+          } else if (this.props.initialValues &amp;&amp; (!this.props.initialized || enableReinitialize)) {
             this.props.initialize(this.props.initialValues, this.props.keepDirtyOnReinitialize);
           }
         }
       }, {
-        key: &#x27;updateSyncErrorsIfNeeded&#x27;,
+        key: 'updateSyncErrorsIfNeeded',
         value: function updateSyncErrorsIfNeeded(nextSyncErrors, nextError) {
           var _props = this.props,
               error = _props.error,
               updateSyncErrors = _props.updateSyncErrors;
 
-          var noErrors = (!this.lastSyncErrors || !Object.keys(this.lastSyncErrors).length) &#x26;&#x26; !error;
-          var nextNoErrors = (!nextSyncErrors || !Object.keys(nextSyncErrors).length) &#x26;&#x26; !nextError;
-          if (!(noErrors &#x26;&#x26; nextNoErrors) &#x26;&#x26; (!_plain2.default.deepEqual(this.lastSyncErrors, nextSyncErrors) || !_plain2.default
+          var noErrors = (!this.lastSyncErrors || !Object.keys(this.lastSyncErrors).length) &amp;&amp; !error;
+          var nextNoErrors = (!nextSyncErrors || !Object.keys(nextSyncErrors).length) &amp;&amp; !nextError;
+          if (!(noErrors &amp;&amp; nextNoErrors) &amp;&amp; (!_plain2.default.deepEqual(this.lastSyncErrors, nextSyncErrors) || !_plain2.default
 .deepEqual(error, nextError))) {
             this.lastSyncErrors = nextSyncErrors;
             updateSyncErrors(nextSyncErrors, nextError);
           }
         }
       }, {
-        key: &#x27;clearSubmitPromiseIfNeeded&#x27;,
+        key: 'clearSubmitPromiseIfNeeded',
         value: function clearSubmitPromiseIfNeeded(nextProps) {
           var submitting = this.props.submitting;
 
-          if (this.submitPromise &#x26;&#x26; submitting &#x26;&#x26; !nextProps.submitting) {
+          if (this.submitPromise &amp;&amp; submitting &amp;&amp; !nextProps.submitting) {
             delete this.submitPromise;
           }
         }
       }, {
-        key: &#x27;submitIfNeeded&#x27;,
+        key: 'submitIfNeeded',
         value: function submitIfNeeded(nextProps) { ...</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3999,12 +3992,12 @@ Submit Validation Failed&#x27;));
   return { type: _actionTypes.REGISTER_FIELD, meta: { form: form }, payload: { name: name, type: type } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;isPristine&#x27;,
+  key: 'isPristine',
   value: function isPristine() {
     return this.props.pristine;
   }
 }, {
-  key: &#x27;register&#x27;,
+  key: 'register',
   value: function register(name, type, getValidator, getWarner) {
     this.props.<span class="apidocCodeKeywordSpan">registerField</span>(name, type);
     if (getValidator) {
@@ -4030,19 +4023,19 @@ Submit Validation Failed&#x27;));
   return { type: _actionTypes.RESET, meta: { form: form } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-        return !_this7.submitPromise &#x26;&#x26; _this7.listenToSubmit((0, _handleSubmit2.default)(checkSubmit(submitOrEvent),
+        return !_this7.submitPromise &amp;&amp; _this7.listenToSubmit((0, _handleSubmit2.default)(checkSubmit(submitOrEvent),
 _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: change }, dispatch)), _this7.props.validExceptSubmit
 , _this7.asyncValidate, _this7.getFieldList({ excludeFieldArray: true })));
       });
     }
   }
 }, {
-  key: &#x27;reset&#x27;,
+  key: 'reset',
   value: function reset() {
     this.props.<span class="apidocCodeKeywordSpan">reset</span>();
   }
 }, {
-  key: &#x27;render&#x27;,
+  key: 'render',
   value: function render() {
     // remove some redux-form config-only props
     /* eslint-disable no-unused-vars */
@@ -4060,7 +4053,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function setSubmitFailed(form) {
-  for (var _len2 = arguments.length, fields = Array(_len2 &#x3e; 1 ? _len2 - 1 : 0), _key2 = 1; _key2 &#x3c; _len2; _key2++) {
+  for (var _len2 = arguments.length, fields = Array(_len2 &gt; 1 ? _len2 - 1 : 0), _key2 = 1; _key2 &lt; _len2; _key2++) {
     fields[_key2 - 1] = arguments[_key2];
   }
 
@@ -4079,7 +4072,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function setSubmitSucceeded(form) {
-  for (var _len3 = arguments.length, fields = Array(_len3 &#x3e; 1 ? _len3 - 1 : 0), _key3 = 1; _key3 &#x3c; _len3; _key3++) {
+  for (var _len3 = arguments.length, fields = Array(_len3 &gt; 1 ? _len3 - 1 : 0), _key3 = 1; _key3 &lt; _len3; _key3++) {
     fields[_key3 - 1] = arguments[_key3];
   }
 
@@ -4133,7 +4126,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     meta: { form: form },
     payload: errors
   };
-  if (errors &#x26;&#x26; Object.keys(errors).length) {
+  if (errors &amp;&amp; Object.keys(errors).length) {
     action.error = true;
   }
   return action;
@@ -4156,7 +4149,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     meta: { form: form },
     payload: errors
   };
-  if (errors &#x26;&#x26; Object.keys(errors).length) {
+  if (errors &amp;&amp; Object.keys(errors).length) {
     action.error = true;
   }
   return action;
@@ -4182,13 +4175,13 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
         clearSubmit = _props2.clearSubmit,
         triggerSubmit = _props2.triggerSubmit;
 
-    if (!triggerSubmit &#x26;&#x26; nextProps.triggerSubmit) {
+    if (!triggerSubmit &amp;&amp; nextProps.triggerSubmit) {
       clearSubmit();
       this.<span class="apidocCodeKeywordSpan">submit</span>();
     }
   }
 }, {
-  key: &#x27;validateIfNeeded&#x27;,
+  key: 'validateIfNeeded',
   value: function validateIfNeeded(nextProps) {
     var _props3 = this.props,
         shouldValidate = _props3.shouldValidate,
@@ -4205,7 +4198,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function touch(form) {
-  for (var _len4 = arguments.length, fields = Array(_len4 &#x3e; 1 ? _len4 - 1 : 0), _key4 = 1; _key4 &#x3c; _len4; _key4++) {
+  for (var _len4 = arguments.length, fields = Array(_len4 &gt; 1 ? _len4 - 1 : 0), _key4 = 1; _key4 &lt; _len4; _key4++) {
     fields[_key4 - 1] = arguments[_key4];
   }
 
@@ -4224,14 +4217,14 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function unregisterField(form, name) {
-  var destroyOnUnmount = arguments.length &#x3e; 2 &#x26;&#x26; arguments[2] !== undefined ? arguments[2] : true;
+  var destroyOnUnmount = arguments.length &gt; 2 &amp;&amp; arguments[2] !== undefined ? arguments[2] : true;
   return { type: _actionTypes.UNREGISTER_FIELD, meta: { form: form }, payload: { name: name, destroyOnUnmount: destroyOnUnmount } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
     }
   }
 }, {
-  key: &#x27;unregister&#x27;,
+  key: 'unregister',
   value: function unregister(name) {
     if (!this.destroyed) {
       if (this.props.destroyOnUnmount || this.props.forceUnregisterOnUnmount) {
@@ -4256,7 +4249,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function untouch(form) {
-  for (var _len5 = arguments.length, fields = Array(_len5 &#x3e; 1 ? _len5 - 1 : 0), _key5 = 1; _key5 &#x3c; _len5; _key5++) {
+  for (var _len5 = arguments.length, fields = Array(_len5 &gt; 1 ? _len5 - 1 : 0), _key5 = 1; _key5 &lt; _len5; _key5++) {
     fields[_key5 - 1] = arguments[_key5];
   }
 
@@ -4276,9 +4269,9 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     <ul>
     <li>description and source-code<pre class="apidocCodePre">values = function (config) {
   var _prop$getFormState$co = _extends({
-    prop: &#x27;values&#x27;,
+    prop: 'values',
     getFormState: function getFormState(state) {
-      return getIn(state, &#x27;form&#x27;);
+      return getIn(state, 'form');
     }
   }, config),
       form = _prop$getFormState$co.form,
@@ -4286,7 +4279,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
       getFormState = _prop$getFormState$co.getFormState;
 
   return (0, _reactRedux.connect)(function (state) {
-    return _defineProperty({}, prop, getIn(getFormState(state), form + &#x27;.values&#x27;));
+    return _defineProperty({}, prop, getIn(getFormState(state), form + '.values'));
   }, function () {
     return {};
   } // ignore dispatch
@@ -4375,14 +4368,14 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     var error = _plain2.default.getIn(syncErrors, name);
     // Because the error for this field might not be at a level in the error structure where
     // it can be set directly, it might need to be unwrapped from the _error property
-    return error &#x26;&#x26; error._error ? error._error : error;
+    return error &amp;&amp; error._error ? error._error : error;
   };
 
   var getSyncWarning = function getSyncWarning(syncWarnings, name) {
     var warning = getIn(syncWarnings, name);
     // Because the warning for this field might not be at a level in the warning structure where
     // it can be set directly, it might need to be unwrapped from the _warning property
-    return warning &#x26;&#x26; warning._warning ? warning._warning : warning;
+    return warning &amp;&amp; warning._warning ? warning._warning : warning;
   };
 
   var ConnectedField = function (_Component) {
@@ -4403,33 +4396,33 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     }
 
     _createClass(ConnectedField, [{
-      key: &#x27;shouldComponentUpdate&#x27;,
+      key: 'shouldComponentUpdate',
       value: function shouldComponentUpdate(nextProps) {
         var _this2 = this;
 
         var nextPropsKeys = Object.keys(nextProps);
         var thisPropsKeys = Object.keys(this.props);
         return nextPropsKeys.length !== thisPropsKeys.length || nextPropsKeys.some(function (prop) {
-          return !~propsToNotUpdateFor.indexOf(prop) &#x26;&#x26; !deepEqual(_this2.props[prop], nextProps[prop]);
+          return !~propsToNotUpdateFor.indexOf(prop) &amp;&amp; !deepEqual(_this2.props[prop], nextProps[prop]);
         });
       }
     }, {
-      key: &#x27;isPristine&#x27;,
+      key: 'isPristine',
       value: function isPristine() {
         return this.props.pristine;
       }
     }, {
-      key: &#x27;getValue&#x27;,
+      key: 'getValue',
       value: function getValue() {
         return this.props.value;
       }
     }, {
-      key: &#x27;getRenderedComponent&#x27;,
+      key: 'getRenderedComponent',
       value: function getRenderedComponent() {
         return this.refs.renderedComponent;
       }
     }, {
-      key: &#x27;handleChange&#x27;,
+      key: 'handleChange',
       value: function handleChange(event) {
         var _props = this.props,
             name = _props.name,
@@ -4457,7 +4450,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
         }
       }
     }, {
-      key: &#x27;handleFocus&#x27;,
+      key: 'handleFocus',
       value: function handleFocus(event) {
         var _props2 = this.props,
             name = _props2.name,
@@ -4481,7 +4474,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
         }
       }
     }, {
-      key: &#x27;handleBlur&#x27;,
+      key: 'handleBlur',
       value: function handleBlur(event) {
         var _props3 = this.props,
             name = _props3.name, ...</pre></li>
@@ -4512,14 +4505,14 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     // For an array, the error can _ONLY_ be under _error.
     // This is why this getSyncError is not the same as the
     // one in Field.
-    return _plain2.default.getIn(syncErrors, name + &#x27;._error&#x27;);
+    return _plain2.default.getIn(syncErrors, name + '._error');
   };
 
   var getSyncWarning = function getSyncWarning(syncWarnings, name) {
     // For an array, the warning can _ONLY_ be under _warning.
     // This is why this getSyncError is not the same as the
     // one in Field.
-    return getIn(syncWarnings, name + &#x27;._warning&#x27;);
+    return getIn(syncWarnings, name + '._warning');
   };
 
   var ConnectedFieldArray = function (_Component) {
@@ -4536,7 +4529,7 @@ call(this));
     }
 
     _createClass(ConnectedFieldArray, [{
-      key: &#x27;shouldComponentUpdate&#x27;,
+      key: 'shouldComponentUpdate',
       value: function shouldComponentUpdate(nextProps) {
         var _this2 = this;
 
@@ -4544,7 +4537,7 @@ call(this));
         var thisValue = this.props.value;
         var nextValue = nextProps.value;
 
-        if (thisValue &#x26;&#x26; nextValue) {
+        if (thisValue &amp;&amp; nextValue) {
           if (thisValue.length !== nextValue.length || thisValue.every(function (val) {
             return nextValue.some(function (next) {
               return deepEqual(val, next);
@@ -4559,23 +4552,23 @@ call(this));
         return nextPropsKeys.length !== thisPropsKeys.length || nextPropsKeys.some(function (prop) {
           // useful to debug rerenders
           // if (!plain.deepEqual(this.props[ prop ], nextProps[ prop ])) {
-          //   console.info(prop, &#x27;changed&#x27;, this.props[ prop ], &#x27;==&#x3e;&#x27;, nextProps[ prop ])
+          //   console.info(prop, 'changed', this.props[ prop ], '==&gt;', nextProps[ prop ])
           // }
-          return !~propsToNotUpdateFor.indexOf(prop) &#x26;&#x26; !deepEqual(_this2.props[prop], nextProps[prop]);
+          return !~propsToNotUpdateFor.indexOf(prop) &amp;&amp; !deepEqual(_this2.props[prop], nextProps[prop]);
         });
       }
     }, {
-      key: &#x27;getRenderedComponent&#x27;,
+      key: 'getRenderedComponent',
       value: function getRenderedComponent() {
         return this.refs.renderedComponent;
       }
     }, {
-      key: &#x27;getValue&#x27;,
+      key: 'getValue',
       value: function getValue(index) {
-        return this.props.value &#x26;&#x26; getIn(this.props.value, index);
+        return this.props.value &amp;&amp; getIn(this.props.value, index);
       }
     }, {
-      key: &#x27;render&#x27;,
+      key: 'render',
       value: function render() {
         var _props = this.props,
             component = _props.component,
@@ -4584,27 +4577,27 @@ call(this));
             _reduxForm = _props._reduxForm,
             validate = _props.validate,
             warn = _props.warn,
-            rest = _objectWithoutProperties(_props, [&#x27;component&#x27;, &#x27;withRef&#x27;, &#x27;name&#x27;, &#x27;_reduxForm&#x27;, &#x27;validate&#x27;, &#x27;warn&#x27;]);
+            rest = _objectWithoutProperties(_props, ['component', 'withRef', 'name', '_reduxForm', 'validate', 'warn']);
 
         var props = (0, _createFieldArrayProps2.default)(getIn, name, _reduxForm.form, _reduxForm.sectionPrefix, this.getValue,
 rest);
         if (withRef) {
-          props.ref = &#x27;renderedComponent&#x27;;
+          props.ref = 'renderedComponent';
         }
         return (0, _react.createElement)(component, props);
       }
     }, {
-      key: &#x27;dirty&#x27;,
+      key: 'dirty',
       get: function get() {
         return this.props.dirty;
       }
     }, {
-      key: &#x27;pristine&#x27;,
+      key: 'pristine',
       get: function get() {
         return this.props.pristine;
       }
     }, {
-      key: &#x27;value&#x27;,
+      key: 'value',
       get: function get() {
         return this.props.value;
       }
@@ -4653,14 +4646,14 @@ rest);
   var getSyncError = function getSyncError(syncErrors, name) {
     // Because the error for this field might not be at a level in the error structure where
     // it can be set directly, it might need to be unwrapped from the _error property
-    return _plain2.default.getIn(syncErrors, name + &#x27;._error&#x27;) || _plain2.default.getIn(syncErrors, name);
+    return _plain2.default.getIn(syncErrors, name + '._error') || _plain2.default.getIn(syncErrors, name);
   };
 
   var getSyncWarning = function getSyncWarning(syncWarnings, name) {
     var warning = getIn(syncWarnings, name);
     // Because the warning for this field might not be at a level in the warning structure where
     // it can be set directly, it might need to be unwrapped from the _warning property
-    return warning &#x26;&#x26; warning._warning ? warning._warning : warning;
+    return warning &amp;&amp; warning._warning ? warning._warning : warning;
   };
 
   var ConnectedFields = function (_Component) {
@@ -4700,11 +4693,11 @@ rest);
     }
 
     _createClass(ConnectedFields, [{
-      key: &#x27;componentWillReceiveProps&#x27;,
+      key: 'componentWillReceiveProps',
       value: function componentWillReceiveProps(nextProps) {
         var _this2 = this;
 
-        if (this.props.names !== nextProps.names &#x26;&#x26; (size(this.props.names) !== size(nextProps.names) || nextProps.names.some(function
+        if (this.props.names !== nextProps.names &amp;&amp; (size(this.props.names) !== size(nextProps.names) || nextProps.names.some(function
  (nextName) {
           return !_this2.props._fields[nextName];
         }))) {
@@ -4733,18 +4726,18 @@ rest);
         }
       }
     }, {
-      key: &#x27;shouldComponentUpdate&#x27;,
+      key: 'shouldComponentUpdate',
       value: function shouldComponentUpdate(nextProps) {
         var _this3 = this;
 
         var nextPropsKeys = Object.keys(nextProps);
         var thisPropsKeys = Object.keys(this.props);
         return nextPropsKeys.length !== thisPropsKeys.length || nextPropsKeys.some(function (prop) {
-          return !~propsToNotUpdateFor.indexOf(prop) &#x26;&#x26; !deepEqual(_this3.props[prop], nextProps[prop]);
+          return !~propsToNotUpdateFor.indexOf(prop) &amp;&amp; !deepEqual(_this3.props[prop], nextProps[prop]);
         });
       }
     }, {
-      key: &#x27;isDirty&#x27;,
+      key: 'isDirty',
       value: function isDirty() {
         var _fields = this.props._fields;
 
@@ -4753,7 +4746,7 @@ rest);
         });
       }
     }, {
-      key: &#x27;getValues&#x27;,
+      key: 'getValues',
       value: function getValues() {
         var _fields = this.props._fields;
 
@@ -4782,7 +4775,7 @@ rest);
   var _this = _possibleConstructorReturn(this, (Field.__proto__ || Object.getPrototypeOf(Field)).call(this, props, context));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;Field must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('Field must be inside a component decorated with reduxForm()');
   }
 
   _this.normalize = _this.normalize.bind(_this);
@@ -4906,7 +4899,7 @@ rest);
     }
   }
 }, {
-  key: &#x27;shouldComponentUpdate&#x27;,
+  key: 'shouldComponentUpdate',
   value: function shouldComponentUpdate(nextProps) {
     var _this3 = this;
 ...</pre></li>
@@ -5037,7 +5030,7 @@ rest);
 ));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;FieldArray must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('FieldArray must be inside a component decorated with reduxForm()');
   }
   return _this;
 }</pre></li>
@@ -5169,7 +5162,7 @@ rest);
   var _this = _possibleConstructorReturn(this, (Fields.__proto__ || Object.getPrototypeOf(Fields)).call(this, props, context));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;Fields must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('Fields must be inside a component decorated with reduxForm()');
   }
   return _this;
 }</pre></li>
@@ -5303,7 +5296,7 @@ rest);
   var _this = _possibleConstructorReturn(this, (Form.__proto__ || Object.getPrototypeOf(Form)).call(this, props, context));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;Form must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('Form must be inside a component decorated with reduxForm()');
   }
   return _this;
 }</pre></li>
@@ -5371,7 +5364,7 @@ rest);
 ));
 
   if (!context._reduxForm) {
-    throw new Error(&#x27;FormSection must be inside a component decorated with reduxForm()&#x27;);
+    throw new Error('FormSection must be inside a component decorated with reduxForm()');
   }
   return _this;
 }</pre></li>
@@ -5470,8 +5463,8 @@ rest);
     <li>description and source-code<pre class="apidocCodePre">function SubmissionError(errors) {
   _classCallCheck(this, SubmissionError);
 
-  var _this = _possibleConstructorReturn(this, (SubmissionError.__proto__ || Object.getPrototypeOf(SubmissionError)).call(this, &#x27;
-Submit Validation Failed&#x27;));
+  var _this = _possibleConstructorReturn(this, (SubmissionError.__proto__ || Object.getPrototypeOf(SubmissionError)).call(this, '
+Submit Validation Failed'));
 
   _this.errors = errors;
   return _this;
@@ -5622,10 +5615,10 @@ Submit Validation Failed&#x27;));
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function arraySwap(form, field, indexA, indexB) {
   if (indexA === indexB) {
-    throw new Error(&#x27;Swap indices cannot be equal&#x27;);
+    throw new Error('Swap indices cannot be equal');
   }
-  if (indexA &#x3c; 0 || indexB &#x3c; 0) {
-    throw new Error(&#x27;Swap indices cannot be negative&#x27;);
+  if (indexA &lt; 0 || indexB &lt; 0) {
+    throw new Error('Swap indices cannot be negative');
   }
   return { type: _actionTypes.ARRAY_SWAP, meta: { form: form, field: field, indexA: indexA, indexB: indexB } };
 }</pre></li>
@@ -5718,7 +5711,7 @@ Submit Validation Failed&#x27;));
     }
   }
 }, {
-  key: &#x27;handleFocus&#x27;,
+  key: 'handleFocus',
   value: function handleFocus(event) {
     var _props2 = this.props,
         name = _props2.name,
@@ -5780,7 +5773,7 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function destroy() {
-  for (var _len = arguments.length, form = Array(_len), _key = 0; _key &#x3c; _len; _key++) {
+  for (var _len = arguments.length, form = Array(_len), _key = 0; _key &lt; _len; _key++) {
     form[_key] = arguments[_key];
   }
 
@@ -5813,7 +5806,7 @@ Submit Validation Failed&#x27;));
     }
   }
 }, {
-  key: &#x27;handleBlur&#x27;,
+  key: 'handleBlur',
   value: function handleBlur(event) {
     var _props3 = this.props,
         name = _props3.name,
@@ -5830,7 +5823,7 @@ Submit Validation Failed&#x27;));
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function initialize(form, values, keepDirty) {
-  var otherMeta = arguments.length &#x3e; 3 &#x26;&#x26; arguments[3] !== undefined ? arguments[3] : {};
+  var otherMeta = arguments.length &gt; 3 &amp;&amp; arguments[3] !== undefined ? arguments[3] : {};
 
   if (keepDirty instanceof Object) {
     otherMeta = keepDirty;
@@ -5839,22 +5832,22 @@ Submit Validation Failed&#x27;));
   return { type: _actionTypes.INITIALIZE, meta: _extends({ form: form, keepDirty: keepDirty }, otherMeta), payload: values };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;initIfNeeded&#x27;,
+  key: 'initIfNeeded',
   value: function initIfNeeded(nextProps) {
     var enableReinitialize = this.props.enableReinitialize;
 
     if (nextProps) {
-      if ((enableReinitialize || !nextProps.initialized) &#x26;&#x26; !deepEqual(this.props.initialValues, nextProps.initialValues
+      if ((enableReinitialize || !nextProps.initialized) &amp;&amp; !deepEqual(this.props.initialValues, nextProps.initialValues
 )) {
-        var keepDirty = nextProps.initialized &#x26;&#x26; this.props.keepDirtyOnReinitialize;
+        var keepDirty = nextProps.initialized &amp;&amp; this.props.keepDirtyOnReinitialize;
         this.props.<span class="apidocCodeKeywordSpan">initialize</span>(nextProps.initialValues, keepDirty);
       }
-    } else if (this.props.initialValues &#x26;&#x26; (!this.props.initialized || enableReinitialize)) {
+    } else if (this.props.initialValues &amp;&amp; (!this.props.initialized || enableReinitialize)) {
       this.props.initialize(this.props.initialValues, this.props.keepDirtyOnReinitialize);
     }
   }
 }, {
-  key: &#x27;updateSyncErrorsIfNeeded&#x27;,
+  key: 'updateSyncErrorsIfNeeded',
 ...</pre></li>
     </ul>
 
@@ -5871,12 +5864,12 @@ Submit Validation Failed&#x27;));
   return { type: _actionTypes.REGISTER_FIELD, meta: { form: form }, payload: { name: name, type: type } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;isPristine&#x27;,
+  key: 'isPristine',
   value: function isPristine() {
     return this.props.pristine;
   }
 }, {
-  key: &#x27;register&#x27;,
+  key: 'register',
   value: function register(name, type, getValidator, getWarner) {
     this.props.<span class="apidocCodeKeywordSpan">registerField</span>(name, type);
     if (getValidator) {
@@ -5902,19 +5895,19 @@ Submit Validation Failed&#x27;));
   return { type: _actionTypes.RESET, meta: { form: form } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-        return !_this7.submitPromise &#x26;&#x26; _this7.listenToSubmit((0, _handleSubmit2.default)(checkSubmit(submitOrEvent),
+        return !_this7.submitPromise &amp;&amp; _this7.listenToSubmit((0, _handleSubmit2.default)(checkSubmit(submitOrEvent),
 _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: change }, dispatch)), _this7.props.validExceptSubmit
 , _this7.asyncValidate, _this7.getFieldList({ excludeFieldArray: true })));
       });
     }
   }
 }, {
-  key: &#x27;reset&#x27;,
+  key: 'reset',
   value: function reset() {
     this.props.<span class="apidocCodeKeywordSpan">reset</span>();
   }
 }, {
-  key: &#x27;render&#x27;,
+  key: 'render',
   value: function render() {
     // remove some redux-form config-only props
     /* eslint-disable no-unused-vars */
@@ -5932,7 +5925,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function setSubmitFailed(form) {
-  for (var _len2 = arguments.length, fields = Array(_len2 &#x3e; 1 ? _len2 - 1 : 0), _key2 = 1; _key2 &#x3c; _len2; _key2++) {
+  for (var _len2 = arguments.length, fields = Array(_len2 &gt; 1 ? _len2 - 1 : 0), _key2 = 1; _key2 &lt; _len2; _key2++) {
     fields[_key2 - 1] = arguments[_key2];
   }
 
@@ -5951,7 +5944,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function setSubmitSucceeded(form) {
-  for (var _len3 = arguments.length, fields = Array(_len3 &#x3e; 1 ? _len3 - 1 : 0), _key3 = 1; _key3 &#x3c; _len3; _key3++) {
+  for (var _len3 = arguments.length, fields = Array(_len3 &gt; 1 ? _len3 - 1 : 0), _key3 = 1; _key3 &lt; _len3; _key3++) {
     fields[_key3 - 1] = arguments[_key3];
   }
 
@@ -6005,7 +5998,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     meta: { form: form },
     payload: errors
   };
-  if (errors &#x26;&#x26; Object.keys(errors).length) {
+  if (errors &amp;&amp; Object.keys(errors).length) {
     action.error = true;
   }
   return action;
@@ -6028,7 +6021,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     meta: { form: form },
     payload: errors
   };
-  if (errors &#x26;&#x26; Object.keys(errors).length) {
+  if (errors &amp;&amp; Object.keys(errors).length) {
     action.error = true;
   }
   return action;
@@ -6054,13 +6047,13 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
         clearSubmit = _props2.clearSubmit,
         triggerSubmit = _props2.triggerSubmit;
 
-    if (!triggerSubmit &#x26;&#x26; nextProps.triggerSubmit) {
+    if (!triggerSubmit &amp;&amp; nextProps.triggerSubmit) {
       clearSubmit();
       this.<span class="apidocCodeKeywordSpan">submit</span>();
     }
   }
 }, {
-  key: &#x27;validateIfNeeded&#x27;,
+  key: 'validateIfNeeded',
   value: function validateIfNeeded(nextProps) {
     var _props3 = this.props,
         shouldValidate = _props3.shouldValidate,
@@ -6077,7 +6070,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function touch(form) {
-  for (var _len4 = arguments.length, fields = Array(_len4 &#x3e; 1 ? _len4 - 1 : 0), _key4 = 1; _key4 &#x3c; _len4; _key4++) {
+  for (var _len4 = arguments.length, fields = Array(_len4 &gt; 1 ? _len4 - 1 : 0), _key4 = 1; _key4 &lt; _len4; _key4++) {
     fields[_key4 - 1] = arguments[_key4];
   }
 
@@ -6096,14 +6089,14 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function unregisterField(form, name) {
-  var destroyOnUnmount = arguments.length &#x3e; 2 &#x26;&#x26; arguments[2] !== undefined ? arguments[2] : true;
+  var destroyOnUnmount = arguments.length &gt; 2 &amp;&amp; arguments[2] !== undefined ? arguments[2] : true;
   return { type: _actionTypes.UNREGISTER_FIELD, meta: { form: form }, payload: { name: name, destroyOnUnmount: destroyOnUnmount } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
     }
   }
 }, {
-  key: &#x27;unregister&#x27;,
+  key: 'unregister',
   value: function unregister(name) {
     if (!this.destroyed) {
       if (this.props.destroyOnUnmount || this.props.forceUnregisterOnUnmount) {
@@ -6128,7 +6121,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function untouch(form) {
-  for (var _len5 = arguments.length, fields = Array(_len5 &#x3e; 1 ? _len5 - 1 : 0), _key5 = 1; _key5 &#x3c; _len5; _key5++) {
+  for (var _len5 = arguments.length, fields = Array(_len5 &gt; 1 ? _len5 - 1 : 0), _key5 = 1; _key5 &lt; _len5; _key5++) {
     fields[_key5 - 1] = arguments[_key5];
   }
 
@@ -6147,7 +6140,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function updateSyncErrors(form) {
-  var syncErrors = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+  var syncErrors = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
   var error = arguments[2];
   return { type: _actionTypes.UPDATE_SYNC_ERRORS, meta: { form: form }, payload: { syncErrors: syncErrors, error: error } };
 }</pre></li>
@@ -6164,7 +6157,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function updateSyncWarnings(form) {
-  var syncWarnings = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+  var syncWarnings = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
   var warning = arguments[2];
   return { type: _actionTypes.UPDATE_SYNC_WARNINGS, meta: { form: form }, payload: { syncWarnings: syncWarnings, warning: warning
  } };
@@ -6355,10 +6348,10 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function arraySwap(form, field, indexA, indexB) {
   if (indexA === indexB) {
-    throw new Error(&#x27;Swap indices cannot be equal&#x27;);
+    throw new Error('Swap indices cannot be equal');
   }
-  if (indexA &#x3c; 0 || indexB &#x3c; 0) {
-    throw new Error(&#x27;Swap indices cannot be negative&#x27;);
+  if (indexA &lt; 0 || indexB &lt; 0) {
+    throw new Error('Swap indices cannot be negative');
   }
   return { type: _actionTypes.ARRAY_SWAP, meta: { form: form, field: field, indexA: indexA, indexB: indexB } };
 }</pre></li>
@@ -6403,16 +6396,16 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
   start(field);
   var promise = fn();
   if (!(0, _isPromise2.default)(promise)) {
-    throw new Error(&#x27;asyncValidate function passed to reduxForm must return a promise&#x27;);
+    throw new Error('asyncValidate function passed to reduxForm must return a promise');
   }
   var handleErrors = function handleErrors(rejected) {
     return function (errors) {
-      if (errors &#x26;&#x26; Object.keys(errors).length) {
+      if (errors &amp;&amp; Object.keys(errors).length) {
         stop(errors);
         return errors;
       } else if (rejected) {
         stop();
-        throw new Error(&#x27;Asynchronous validation promise was rejected without errors.&#x27;);
+        throw new Error('Asynchronous validation promise was rejected without errors.');
       }
       stop();
       return Promise.resolve();
@@ -6509,7 +6502,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     }
   }
 }, {
-  key: &#x27;handleFocus&#x27;,
+  key: 'handleFocus',
   value: function handleFocus(event) {
     var _props2 = this.props,
         name = _props2.name,
@@ -6622,19 +6615,19 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
       syncWarning = _ref.syncWarning,
       value = _ref.value,
       props = _ref.props,
-      rest = _objectWithoutProperties(_ref, [&#x27;arrayInsert&#x27;, &#x27;arrayMove&#x27;, &#x27;arrayPop&#x27;, &#x27;arrayPush&#x27;, &#x27;arrayRemove&#x27;, &#x27;arrayRemoveAll
-&#x27;, &#x27;arrayShift&#x27;, &#x27;arraySplice&#x27;, &#x27;arraySwap&#x27;, &#x27;arrayUnshift&#x27;, &#x27;asyncError&#x27;, &#x27;dirty&#x27;, &#x27;length&#x27;, &#x27;pristine&#x27;, &#x27;submitError&#x27;, &#x27;state&#x27;, &#x27;
-submitFailed&#x27;, &#x27;submitting&#x27;, &#x27;syncError&#x27;, &#x27;syncWarning&#x27;, &#x27;value&#x27;, &#x27;props&#x27;]);
+      rest = _objectWithoutProperties(_ref, ['arrayInsert', 'arrayMove', 'arrayPop', 'arrayPush', 'arrayRemove', 'arrayRemoveAll
+', 'arrayShift', 'arraySplice', 'arraySwap', 'arrayUnshift', 'asyncError', 'dirty', 'length', 'pristine', 'submitError', 'state', '
+submitFailed', 'submitting', 'syncError', 'syncWarning', 'value', 'props']);
 
   var error = syncError || asyncError || submitError;
   var warning = syncWarning;
-  var fieldName = sectionPrefix ? name.replace(sectionPrefix + &#x27;.&#x27;, &#x27;&#x27;) : name;
+  var fieldName = sectionPrefix ? name.replace(sectionPrefix + '.', '') : name;
   var finalProps = _extends({
     fields: {
       _isFieldArray: true,
       forEach: function forEach(callback) {
         return (value || []).forEach(function (item, index) {
-          return callback(fieldName + &#x27;[&#x27; + index + &#x27;]&#x27;, index, finalProps.fields);
+          return callback(fieldName + '[' + index + ']', index, finalProps.fields);
         });
       },
       get: getValue,
@@ -6645,7 +6638,7 @@ submitFailed&#x27;, &#x27;submitting&#x27;, &#x27;syncError&#x27;, &#x27;syncWar
       length: length,
       map: function map(callback) {
         return (value || []).map(function (item, index) {
-          return callback(fieldName + &#x27;[&#x27; + index + &#x27;]&#x27;, index, finalProps.fields);
+          return callback(fieldName + '[' + index + ']', index, finalProps.fields);
         });
       },
       move: arrayMove,
@@ -6657,7 +6650,7 @@ submitFailed&#x27;, &#x27;submitting&#x27;, &#x27;syncError&#x27;, &#x27;syncWar
       push: arrayPush,
       reduce: function reduce(callback, initial) {
         return (value || []).reduce(function (accumulator, item, index) {
-          return callback(accumulator, fieldName + &#x27;[&#x27; + index + &#x27;]&#x27;, index, finalProps.fields);
+          return callback(accumulator, fieldName + '[' + index + ']', index, finalProps.fields);
         }, initial);
       },
       remove: arrayRemove,
@@ -6678,7 +6671,7 @@ submitFailed&#x27;, &#x27;submitting&#x27;, &#x27;syncError&#x27;, &#x27;syncWar
       pristine: pristine,
       submitting: submitting,
       submitFailed: submitFailed,
-      touched: !!(state &#x26;&#x26; getIn(state, &#x27;touched&#x27;)),
+      touched: !!(state &amp;&amp; getIn(state, 'touched')),
       valid: !error
     }
   }, props, rest);
@@ -6729,9 +6722,9 @@ submitFailed&#x27;, &#x27;submitting&#x27;, &#x27;syncError&#x27;, &#x27;syncWar
       value = _ref.value,
       _value = _ref._value,
       warn = _ref.warn,
-      custom = _objectWithoutProperties(_ref, [&#x27;asyncError&#x27;, &#x27;asyncValidating&#x27;, &#x27;onBlur&#x27;, &#x27;onChange&#x27;, &#x27;onDrop&#x27;, &#x27;onDragStart&#x27;, &#x27;
-dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;format&#x27;, &#x27;parse&#x27;, &#x27;pristine&#x27;, &#x27;props&#x27;, &#x27;state&#x27;, &#x27;submitError&#x27;, &#x27;submitFailed&#x27;, &#x27;submitting
-&#x27;, &#x27;syncError&#x27;, &#x27;syncWarning&#x27;, &#x27;validate&#x27;, &#x27;value&#x27;, &#x27;_value&#x27;, &#x27;warn&#x27;]);
+      custom = _objectWithoutProperties(_ref, ['asyncError', 'asyncValidating', 'onBlur', 'onChange', 'onDrop', 'onDragStart', '
+dirty', 'dispatch', 'onFocus', 'form', 'format', 'parse', 'pristine', 'props', 'state', 'submitError', 'submitFailed', 'submitting
+', 'syncError', 'syncWarning', 'validate', 'value', '_value', 'warn']);
 
   var error = syncError || asyncError || submitError;
   var warning = syncWarning;
@@ -6740,7 +6733,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     if (format === null) {
       return value;
     }
-    var defaultFormattedValue = value == null ? &#x27;&#x27; : value;
+    var defaultFormattedValue = value == null ? '' : value;
     return format ? format(value, name) : defaultFormattedValue;
   };
 
@@ -6757,9 +6750,9 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
       value: formattedFieldValue
     }, _value),
     meta: _extends({}, toJS(state), {
-      active: !!(state &#x26;&#x26; getIn(state, &#x27;active&#x27;)),
+      active: !!(state &amp;&amp; getIn(state, 'active')),
       asyncValidating: asyncValidating,
-      autofilled: !!(state &#x26;&#x26; getIn(state, &#x27;autofilled&#x27;)),
+      autofilled: !!(state &amp;&amp; getIn(state, 'autofilled')),
       dirty: dirty,
       dispatch: dispatch,
       error: error,
@@ -6769,9 +6762,9 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
       pristine: pristine,
       submitting: !!submitting,
       submitFailed: !!submitFailed,
-      touched: !!(state &#x26;&#x26; getIn(state, &#x27;touched&#x27;)),
+      touched: !!(state &amp;&amp; getIn(state, 'touched')),
       valid: !error,
-      visited: !!(state &#x26;&#x26; getIn(state, &#x27;visited&#x27;))
+      visited: !!(state &amp;&amp; getIn(state, 'visited'))
     }),
     custom: _extends({}, custom, props)
   };
@@ -6803,12 +6796,12 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     return false;
   }
   switch (trigger) {
-    case &#x27;blur&#x27;:
+    case 'blur':
       // blurring
       return true;
-    case &#x27;submit&#x27;:
+    case 'submit':
       // submitting, so only async validate if form is dirty or was never initialized
-      // conversely, DON&#x27;T async validate if the form is pristine just as it was initialized
+      // conversely, DON'T async validate if the form is pristine just as it was initialized
       return !pristine || !initialized;
     default:
       return false;
@@ -6870,18 +6863,18 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
 
 
   var deleteInWithCleanUp = function deleteInWithCleanUp(state, path) {
-    if (path[path.length - 1] === &#x27;]&#x27;) {
+    if (path[path.length - 1] === ']') {
       // array path
       var pathTokens = (0, _toPath3.default)(path);
       pathTokens.pop();
-      var parent = getIn(state, pathTokens.join(&#x27;.&#x27;));
+      var parent = getIn(state, pathTokens.join('.'));
       return parent ? setIn(state, path, undefined) : state;
     }
     var result = deleteIn(state, path);
-    var dotIndex = path.lastIndexOf(&#x27;.&#x27;);
-    if (dotIndex &#x3e; 0) {
+    var dotIndex = path.lastIndexOf('.');
+    if (dotIndex &gt; 0) {
       var parentPath = path.substring(0, dotIndex);
-      if (parentPath[parentPath.length - 1] !== &#x27;]&#x27;) {
+      if (parentPath[parentPath.length - 1] !== ']') {
         var _parent = getIn(result, parentPath);
         if (deepEqual(_parent, empty)) {
           return deleteInWithCleanUp(result, parentPath);
@@ -6911,7 +6904,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function destroy() {
-  for (var _len = arguments.length, form = Array(_len), _key = 0; _key &#x3c; _len; _key++) {
+  for (var _len = arguments.length, form = Array(_len), _key = 0; _key &lt; _len; _key++) {
     form[_key] = arguments[_key];
   }
 
@@ -6949,7 +6942,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     }
   }
 }, {
-  key: &#x27;handleBlur&#x27;,
+  key: 'handleBlur',
   value: function handleBlur(event) {
     var _props3 = this.props,
         name = _props3.name,
@@ -6971,23 +6964,23 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">formValueSelector = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
 
-  (0, _invariant2.default)(form, &#x27;Form value must be specified&#x27;);
+  (0, _invariant2.default)(form, 'Form value must be specified');
   return function (state) {
-    for (var _len = arguments.length, fields = Array(_len &#x3e; 1 ? _len - 1 : 0), _key = 1; _key &#x3c; _len; _key++) {
+    for (var _len = arguments.length, fields = Array(_len &gt; 1 ? _len - 1 : 0), _key = 1; _key &lt; _len; _key++) {
       fields[_key - 1] = arguments[_key];
     }
 
-    (0, _invariant2.default)(fields.length, &#x27;No fields specified&#x27;);
+    (0, _invariant2.default)(fields.length, 'No fields specified');
     return fields.length === 1 ?
     // only selecting one field, so return its value
-    getIn(getFormState(state), form + &#x27;.values.&#x27; + fields[0]) :
+    getIn(getFormState(state), form + '.values.' + fields[0]) :
     // selecting many fields, so return an object of field values
     fields.reduce(function (accumulator, field) {
-      var value = getIn(getFormState(state), form + &#x27;.values.&#x27; + field);
+      var value = getIn(getFormState(state), form + '.values.' + field);
       return value === undefined ? accumulator : _plain2.default.setIn(accumulator, field, value);
     }, {});
   };
@@ -7041,11 +7034,11 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormAsyncErrors = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.asyncErrors&#x27;);
+    return getIn(getFormState(state), form + '.asyncErrors');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7066,11 +7059,11 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormInitialValues = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.initial&#x27;);
+    return getIn(getFormState(state), form + '.initial');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7091,8 +7084,8 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormNames = function () {
-  var getFormState = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     return keys(getFormState(state));
@@ -7116,11 +7109,11 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormSubmitErrors = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.submitErrors&#x27;);
+    return getIn(getFormState(state), form + '.submitErrors');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7141,11 +7134,11 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormSyncErrors = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.syncErrors&#x27;);
+    return getIn(getFormState(state), form + '.syncErrors');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7166,11 +7159,11 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormSyncWarnings = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.syncWarnings&#x27;);
+    return getIn(getFormState(state), form + '.syncWarnings');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7191,11 +7184,11 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getFormValues = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
-    return getIn(getFormState(state), form + &#x27;.values&#x27;);
+    return getIn(getFormState(state), form + '.values');
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7244,7 +7237,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
           onSubmitFail(error, dispatch, submitError, props);
         }
         if (error || onSubmitFail) {
-          // if you&#x27;ve provided an onSubmitFail callback, don&#x27;t re-throw the error
+          // if you've provided an onSubmitFail callback, don't re-throw the error
           return error;
         } else {
           throw submitError;
@@ -7267,7 +7260,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
             onSubmitFail(error, dispatch, submitError, props);
           }
           if (error || onSubmitFail) {
-            // if you&#x27;ve provided an onSubmitFail callback, don&#x27;t re-throw the error
+            // if you've provided an onSubmitFail callback, don't re-throw the error
             return error;
           } else {
             throw submitError;
@@ -7282,7 +7275,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
       return result;
     };
 
-    var asyncValidateResult = asyncValidate &#x26;&#x26; asyncValidate();
+    var asyncValidateResult = asyncValidate &amp;&amp; asyncValidate();
     if (asyncValidateResult) {
       return asyncValidateResult.then(function (asyncErrors) {
         if (asyncErrors) {
@@ -7328,12 +7321,12 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
   var getIn = _ref.getIn;
 
   var hasError = function hasError(field, syncErrors, asyncErrors, submitErrors) {
-    if (!syncErrors &#x26;&#x26; !asyncErrors &#x26;&#x26; !submitErrors) {
+    if (!syncErrors &amp;&amp; !asyncErrors &amp;&amp; !submitErrors) {
       return false;
     }
 
-    var name = getIn(field, &#x27;name&#x27;);
-    var type = getIn(field, &#x27;type&#x27;);
+    var name = getIn(field, 'name');
+    var type = getIn(field, 'type');
     return getErrorKeys(name, type).some(function (key) {
       return getIn(syncErrors, key) || getIn(asyncErrors, key) || getIn(submitErrors, key);
     });
@@ -7358,12 +7351,12 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">hasSubmitFailed = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     var formState = getFormState(state);
-    return getIn(formState, form + &#x27;.submitFailed&#x27;) || false;
+    return getIn(formState, form + '.submitFailed') || false;
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7384,12 +7377,12 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">hasSubmitSucceeded = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     var formState = getFormState(state);
-    return getIn(formState, form + &#x27;.submitSucceeded&#x27;) || false;
+    return getIn(formState, form + '.submitSucceeded') || false;
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7410,7 +7403,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function initialize(form, values, keepDirty) {
-  var otherMeta = arguments.length &#x3e; 3 &#x26;&#x26; arguments[3] !== undefined ? arguments[3] : {};
+  var otherMeta = arguments.length &gt; 3 &amp;&amp; arguments[3] !== undefined ? arguments[3] : {};
 
   if (keepDirty instanceof Object) {
     otherMeta = keepDirty;
@@ -7419,22 +7412,22 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
   return { type: _actionTypes.INITIALIZE, meta: _extends({ form: form, keepDirty: keepDirty }, otherMeta), payload: values };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;initIfNeeded&#x27;,
+  key: 'initIfNeeded',
   value: function initIfNeeded(nextProps) {
     var enableReinitialize = this.props.enableReinitialize;
 
     if (nextProps) {
-      if ((enableReinitialize || !nextProps.initialized) &#x26;&#x26; !deepEqual(this.props.initialValues, nextProps.initialValues
+      if ((enableReinitialize || !nextProps.initialized) &amp;&amp; !deepEqual(this.props.initialValues, nextProps.initialValues
 )) {
-        var keepDirty = nextProps.initialized &#x26;&#x26; this.props.keepDirtyOnReinitialize;
+        var keepDirty = nextProps.initialized &amp;&amp; this.props.keepDirtyOnReinitialize;
         this.props.<span class="apidocCodeKeywordSpan">initialize</span>(nextProps.initialValues, keepDirty);
       }
-    } else if (this.props.initialValues &#x26;&#x26; (!this.props.initialized || enableReinitialize)) {
+    } else if (this.props.initialValues &amp;&amp; (!this.props.initialized || enableReinitialize)) {
       this.props.initialize(this.props.initialValues, this.props.keepDirtyOnReinitialize);
     }
   }
 }, {
-  key: &#x27;updateSyncErrorsIfNeeded&#x27;,
+  key: 'updateSyncErrorsIfNeeded',
 ...</pre></li>
     </ul>
 
@@ -7453,15 +7446,15 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isChecked(value) {
-  if (typeof value === &#x27;boolean&#x27;) {
+  if (typeof value === 'boolean') {
     return value;
   }
-  if (typeof value === &#x27;string&#x27;) {
+  if (typeof value === 'string') {
     var lower = value.toLowerCase();
-    if (lower === &#x27;true&#x27;) {
+    if (lower === 'true') {
       return true;
     }
-    if (lower === &#x27;false&#x27;) {
+    if (lower === 'false') {
       return false;
     }
   }
@@ -7496,12 +7489,12 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     });
   }
 }, {
-  key: &#x27;dirty&#x27;,
+  key: 'dirty',
   get: function get() {
     return this.refs.connected.getWrappedInstance().<span class="apidocCodeKeywordSpan">isDirty</span>();
   }
 }, {
-  key: &#x27;pristine&#x27;,
+  key: 'pristine',
   get: function get() {
     return !this.dirty;
   }
@@ -7547,30 +7540,30 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isPristine = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     var formState = getFormState(state);
-    var initial = getIn(formState, form + &#x27;.initial&#x27;) || empty;
-    var values = getIn(formState, form + &#x27;.values&#x27;) || initial;
+    var initial = getIn(formState, form + '.initial') || empty;
+    var values = getIn(formState, form + '.values') || initial;
     return deepEqual(initial, values);
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;dirty&#x27;,
+  key: 'dirty',
   get: function get() {
     return !this.pristine;
   }
 }, {
-  key: &#x27;pristine&#x27;,
+  key: 'pristine',
   get: function get() {
     return this.refs.connected.getWrappedInstance().<span class="apidocCodeKeywordSpan">isPristine</span>();
   }
 }, {
-  key: &#x27;value&#x27;,
+  key: 'value',
   get: function get() {
-    return this.refs.connected &#x26;&#x26; this.refs.connected.getWrappedInstance().getValue();
+    return this.refs.connected &amp;&amp; this.refs.connected.getWrappedInstance().getValue();
   }
 }]);
 ...</pre></li>
@@ -7591,12 +7584,12 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isSubmitting = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
   return function (state) {
     var formState = getFormState(state);
-    return getIn(formState, form + &#x27;.submitting&#x27;) || false;
+    return getIn(formState, form + '.submitting') || false;
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7617,38 +7610,38 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isValid = function (form) {
-  var getFormState = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : function (state) {
-    return getIn(state, &#x27;form&#x27;);
+  var getFormState = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : function (state) {
+    return getIn(state, 'form');
   };
-  var ignoreSubmitErrors = arguments.length &#x3e; 2 &#x26;&#x26; arguments[2] !== undefined ? arguments[2] : false;
+  var ignoreSubmitErrors = arguments.length &gt; 2 &amp;&amp; arguments[2] !== undefined ? arguments[2] : false;
   return function (state) {
     var formState = getFormState(state);
-    var syncError = getIn(formState, form + &#x27;.syncError&#x27;);
+    var syncError = getIn(formState, form + '.syncError');
     if (syncError) {
       return false;
     }
     if (!ignoreSubmitErrors) {
-      var error = getIn(formState, form + &#x27;.error&#x27;);
+      var error = getIn(formState, form + '.error');
       if (error) {
         return false;
       }
     }
-    var syncErrors = getIn(formState, form + &#x27;.syncErrors&#x27;);
-    var asyncErrors = getIn(formState, form + &#x27;.asyncErrors&#x27;);
-    var submitErrors = ignoreSubmitErrors ? undefined : getIn(formState, form + &#x27;.submitErrors&#x27;);
-    if (!syncErrors &#x26;&#x26; !asyncErrors &#x26;&#x26; !submitErrors) {
+    var syncErrors = getIn(formState, form + '.syncErrors');
+    var asyncErrors = getIn(formState, form + '.asyncErrors');
+    var submitErrors = ignoreSubmitErrors ? undefined : getIn(formState, form + '.submitErrors');
+    if (!syncErrors &amp;&amp; !asyncErrors &amp;&amp; !submitErrors) {
       return true;
     }
 
-    var registeredFields = getIn(formState, form + &#x27;.registeredFields&#x27;);
+    var registeredFields = getIn(formState, form + '.registeredFields');
     if (!registeredFields) {
       return true;
     }
 
     return !keys(registeredFields).filter(function (name) {
-      return getIn(registeredFields, &#x27;[\&#x27;&#x27; + name + &#x27;\&#x27;].count&#x27;) &#x3e; 0;
+      return getIn(registeredFields, '[\'' + name + '\'].count') &gt; 0;
     }).some(function (name) {
-      return hasError(getIn(registeredFields, &#x27;[\&#x27;&#x27; + name + &#x27;\&#x27;]&#x27;), syncErrors, asyncErrors, submitErrors);
+      return hasError(getIn(registeredFields, '[\'' + name + '\']'), syncErrors, asyncErrors, submitErrors);
     });
   };
 }</pre></li>
@@ -7658,12 +7651,12 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     }));
   }
 }, {
-  key: &#x27;valid&#x27;,
+  key: 'valid',
   get: function get() {
     return this.refs.wrapped.getWrappedInstance().<span class="apidocCodeKeywordSpan">isValid</span>();
   }
 }, {
-  key: &#x27;invalid&#x27;,
+  key: 'invalid',
   get: function get() {
     return !this.valid;
   }
@@ -7725,7 +7718,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     }
   }
 }, {
-  key: &#x27;handleDragStart&#x27;,
+  key: 'handleDragStart',
   value: function handleDragStart(event) {
     var _props4 = this.props,
 ...</pre></li>
@@ -7808,7 +7801,7 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     }
   }
 }, {
-  key: &#x27;handleFocus&#x27;,
+  key: 'handleFocus',
   value: function handleFocus(event) {
     var _props2 = this.props,
         name = _props2.name,
@@ -7943,22 +7936,22 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     <ul>
     <li>description and source-code<pre class="apidocCodePre">initialize = function () { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;initIfNeeded&#x27;,
+  key: 'initIfNeeded',
   value: function initIfNeeded(nextProps) {
     var enableReinitialize = this.props.enableReinitialize;
 
     if (nextProps) {
-      if ((enableReinitialize || !nextProps.initialized) &#x26;&#x26; !deepEqual(this.props.initialValues, nextProps.initialValues
+      if ((enableReinitialize || !nextProps.initialized) &amp;&amp; !deepEqual(this.props.initialValues, nextProps.initialValues
 )) {
-        var keepDirty = nextProps.initialized &#x26;&#x26; this.props.keepDirtyOnReinitialize;
+        var keepDirty = nextProps.initialized &amp;&amp; this.props.keepDirtyOnReinitialize;
         this.props.<span class="apidocCodeKeywordSpan">initialize</span>(nextProps.initialValues, keepDirty);
       }
-    } else if (this.props.initialValues &#x26;&#x26; (!this.props.initialized || enableReinitialize)) {
+    } else if (this.props.initialValues &amp;&amp; (!this.props.initialized || enableReinitialize)) {
       this.props.initialize(this.props.initialValues, this.props.keepDirtyOnReinitialize);
     }
   }
 }, {
-  key: &#x27;updateSyncErrorsIfNeeded&#x27;,
+  key: 'updateSyncErrorsIfNeeded',
 ...</pre></li>
     </ul>
 
@@ -8025,19 +8018,19 @@ dirty&#x27;, &#x27;dispatch&#x27;, &#x27;onFocus&#x27;, &#x27;form&#x27;, &#x27;
     <ul>
     <li>description and source-code<pre class="apidocCodePre">reset = function () { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-        return !_this7.submitPromise &#x26;&#x26; _this7.listenToSubmit((0, _handleSubmit2.default)(checkSubmit(submitOrEvent),
+        return !_this7.submitPromise &amp;&amp; _this7.listenToSubmit((0, _handleSubmit2.default)(checkSubmit(submitOrEvent),
 _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: change }, dispatch)), _this7.props.validExceptSubmit
 , _this7.asyncValidate, _this7.getFieldList({ excludeFieldArray: true })));
       });
     }
   }
 }, {
-  key: &#x27;reset&#x27;,
+  key: 'reset',
   value: function reset() {
     this.props.<span class="apidocCodeKeywordSpan">reset</span>();
   }
 }, {
-  key: &#x27;render&#x27;,
+  key: 'render',
   value: function render() {
     // remove some redux-form config-only props
     /* eslint-disable no-unused-vars */
@@ -8061,13 +8054,13 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
         clearSubmit = _props2.clearSubmit,
         triggerSubmit = _props2.triggerSubmit;
 
-    if (!triggerSubmit &#x26;&#x26; nextProps.triggerSubmit) {
+    if (!triggerSubmit &amp;&amp; nextProps.triggerSubmit) {
       clearSubmit();
       this.<span class="apidocCodeKeywordSpan">submit</span>();
     }
   }
 }, {
-  key: &#x27;validateIfNeeded&#x27;,
+  key: 'validateIfNeeded',
   value: function validateIfNeeded(nextProps) {
     var _props3 = this.props,
         shouldValidate = _props3.shouldValidate,
@@ -8255,7 +8248,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     }
   }
 }, {
-  key: &#x27;handleDragStart&#x27;,
+  key: 'handleDragStart',
   value: function handleDragStart(event) {
     var _props4 = this.props,
 ...</pre></li>
@@ -8405,10 +8398,10 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">reducer = function () {
-  var state = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : empty;
-  var action = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+  var state = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : empty;
+  var action = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
 
-  var form = action &#x26;&#x26; action.meta &#x26;&#x26; action.meta.form;
+  var form = action &amp;&amp; action.meta &amp;&amp; action.meta.form;
   if (!form || !isReduxFormAction(action)) {
     return state;
   }
@@ -8436,10 +8429,10 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     <li>description and source-code<pre class="apidocCodePre">function plugin(reducers) {
   var _this = this;
 
-  // use &#x27;function&#x27; keyword to enable &#x27;this&#x27;
+  // use 'function' keyword to enable 'this'
   return decorate(function () {
-    var state = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : empty;
-    var action = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+    var state = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : empty;
+    var action = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
     return Object.keys(reducers).reduce(function (accumulator, key) {
       var previousState = getIn(accumulator, key);
       var nextState = reducers[key](previousState, action, getIn(state, key));
@@ -8467,10 +8460,10 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     <li>description and source-code<pre class="apidocCodePre">function plugin(reducers) {
   var _this = this;
 
-  // use &#x27;function&#x27; keyword to enable &#x27;this&#x27;
+  // use 'function' keyword to enable 'this'
   return decorate(function () {
-    var state = arguments.length &#x3e; 0 &#x26;&#x26; arguments[0] !== undefined ? arguments[0] : empty;
-    var action = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : {};
+    var state = arguments.length &gt; 0 &amp;&amp; arguments[0] !== undefined ? arguments[0] : empty;
+    var action = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : {};
     return Object.keys(reducers).reduce(function (accumulator, key) {
       var previousState = getIn(accumulator, key);
       var nextState = reducers[key](previousState, action, getIn(state, key));
@@ -8506,7 +8499,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     enableReinitialize: false,
     keepDirtyOnReinitialize: false,
     getFormState: function getFormState(state) {
-      return getIn(state, &#x27;form&#x27;);
+      return getIn(state, 'form');
     },
     pure: true,
     forceUnregisterOnUnmount: false
@@ -8537,7 +8530,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
       }
 
       _createClass(Form, [{
-        key: &#x27;getChildContext&#x27;,
+        key: 'getChildContext',
         value: function getChildContext() {
           var _this2 = this;
 
@@ -8558,45 +8551,45 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
           };
         }
       }, {
-        key: &#x27;initIfNeeded&#x27;,
+        key: 'initIfNeeded',
         value: function initIfNeeded(nextProps) {
           var enableReinitialize = this.props.enableReinitialize;
 
           if (nextProps) {
-            if ((enableReinitialize || !nextProps.initialized) &#x26;&#x26; !deepEqual(this.props.initialValues, nextProps.initialValues)) {
-              var keepDirty = nextProps.initialized &#x26;&#x26; this.props.keepDirtyOnReinitialize;
+            if ((enableReinitialize || !nextProps.initialized) &amp;&amp; !deepEqual(this.props.initialValues, nextProps.initialValues)) {
+              var keepDirty = nextProps.initialized &amp;&amp; this.props.keepDirtyOnReinitialize;
               this.props.initialize(nextProps.initialValues, keepDirty);
             }
-          } else if (this.props.initialValues &#x26;&#x26; (!this.props.initialized || enableReinitialize)) {
+          } else if (this.props.initialValues &amp;&amp; (!this.props.initialized || enableReinitialize)) {
             this.props.initialize(this.props.initialValues, this.props.keepDirtyOnReinitialize);
           }
         }
       }, {
-        key: &#x27;updateSyncErrorsIfNeeded&#x27;,
+        key: 'updateSyncErrorsIfNeeded',
         value: function updateSyncErrorsIfNeeded(nextSyncErrors, nextError) {
           var _props = this.props,
               error = _props.error,
               updateSyncErrors = _props.updateSyncErrors;
 
-          var noErrors = (!this.lastSyncErrors || !Object.keys(this.lastSyncErrors).length) &#x26;&#x26; !error;
-          var nextNoErrors = (!nextSyncErrors || !Object.keys(nextSyncErrors).length) &#x26;&#x26; !nextError;
-          if (!(noErrors &#x26;&#x26; nextNoErrors) &#x26;&#x26; (!_plain2.default.deepEqual(this.lastSyncErrors, nextSyncErrors) || !_plain2.default
+          var noErrors = (!this.lastSyncErrors || !Object.keys(this.lastSyncErrors).length) &amp;&amp; !error;
+          var nextNoErrors = (!nextSyncErrors || !Object.keys(nextSyncErrors).length) &amp;&amp; !nextError;
+          if (!(noErrors &amp;&amp; nextNoErrors) &amp;&amp; (!_plain2.default.deepEqual(this.lastSyncErrors, nextSyncErrors) || !_plain2.default
 .deepEqual(error, nextError))) {
             this.lastSyncErrors = nextSyncErrors;
             updateSyncErrors(nextSyncErrors, nextError);
           }
         }
       }, {
-        key: &#x27;clearSubmitPromiseIfNeeded&#x27;,
+        key: 'clearSubmitPromiseIfNeeded',
         value: function clearSubmitPromiseIfNeeded(nextProps) {
           var submitting = this.props.submitting;
 
-          if (this.submitPromise &#x26;&#x26; submitting &#x26;&#x26; !nextProps.submitting) {
+          if (this.submitPromise &amp;&amp; submitting &amp;&amp; !nextProps.submitting) {
             delete this.submitPromise;
           }
         }
       }, {
-        key: &#x27;submitIfNeeded&#x27;,
+        key: 'submitIfNeeded',
         value: function submitIfNeeded(nextProps) { ...</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -8619,12 +8612,12 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
   return { type: _actionTypes.REGISTER_FIELD, meta: { form: form }, payload: { name: name, type: type } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  key: &#x27;isPristine&#x27;,
+  key: 'isPristine',
   value: function isPristine() {
     return this.props.pristine;
   }
 }, {
-  key: &#x27;register&#x27;,
+  key: 'register',
   value: function register(name, type, getValidator, getWarner) {
     this.props.<span class="apidocCodeKeywordSpan">registerField</span>(name, type);
     if (getValidator) {
@@ -8655,19 +8648,19 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
   return { type: _actionTypes.RESET, meta: { form: form } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-        return !_this7.submitPromise &#x26;&#x26; _this7.listenToSubmit((0, _handleSubmit2.default)(checkSubmit(submitOrEvent),
+        return !_this7.submitPromise &amp;&amp; _this7.listenToSubmit((0, _handleSubmit2.default)(checkSubmit(submitOrEvent),
 _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: change }, dispatch)), _this7.props.validExceptSubmit
 , _this7.asyncValidate, _this7.getFieldList({ excludeFieldArray: true })));
       });
     }
   }
 }, {
-  key: &#x27;reset&#x27;,
+  key: 'reset',
   value: function reset() {
     this.props.<span class="apidocCodeKeywordSpan">reset</span>();
   }
 }, {
-  key: &#x27;render&#x27;,
+  key: 'render',
   value: function render() {
     // remove some redux-form config-only props
     /* eslint-disable no-unused-vars */
@@ -8690,7 +8683,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function setSubmitFailed(form) {
-  for (var _len2 = arguments.length, fields = Array(_len2 &#x3e; 1 ? _len2 - 1 : 0), _key2 = 1; _key2 &#x3c; _len2; _key2++) {
+  for (var _len2 = arguments.length, fields = Array(_len2 &gt; 1 ? _len2 - 1 : 0), _key2 = 1; _key2 &lt; _len2; _key2++) {
     fields[_key2 - 1] = arguments[_key2];
   }
 
@@ -8714,7 +8707,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function setSubmitSucceeded(form) {
-  for (var _len3 = arguments.length, fields = Array(_len3 &#x3e; 1 ? _len3 - 1 : 0), _key3 = 1; _key3 &#x3c; _len3; _key3++) {
+  for (var _len3 = arguments.length, fields = Array(_len3 &gt; 1 ? _len3 - 1 : 0), _key3 = 1; _key3 &lt; _len3; _key3++) {
     fields[_key3 - 1] = arguments[_key3];
   }
 
@@ -8783,7 +8776,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     meta: { form: form },
     payload: errors
   };
-  if (errors &#x26;&#x26; Object.keys(errors).length) {
+  if (errors &amp;&amp; Object.keys(errors).length) {
     action.error = true;
   }
   return action;
@@ -8811,7 +8804,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     meta: { form: form },
     payload: errors
   };
-  if (errors &#x26;&#x26; Object.keys(errors).length) {
+  if (errors &amp;&amp; Object.keys(errors).length) {
     action.error = true;
   }
   return action;
@@ -8842,13 +8835,13 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
         clearSubmit = _props2.clearSubmit,
         triggerSubmit = _props2.triggerSubmit;
 
-    if (!triggerSubmit &#x26;&#x26; nextProps.triggerSubmit) {
+    if (!triggerSubmit &amp;&amp; nextProps.triggerSubmit) {
       clearSubmit();
       this.<span class="apidocCodeKeywordSpan">submit</span>();
     }
   }
 }, {
-  key: &#x27;validateIfNeeded&#x27;,
+  key: 'validateIfNeeded',
   value: function validateIfNeeded(nextProps) {
     var _props3 = this.props,
         shouldValidate = _props3.shouldValidate,
@@ -8870,7 +8863,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function touch(form) {
-  for (var _len4 = arguments.length, fields = Array(_len4 &#x3e; 1 ? _len4 - 1 : 0), _key4 = 1; _key4 &#x3c; _len4; _key4++) {
+  for (var _len4 = arguments.length, fields = Array(_len4 &gt; 1 ? _len4 - 1 : 0), _key4 = 1; _key4 &lt; _len4; _key4++) {
     fields[_key4 - 1] = arguments[_key4];
   }
 
@@ -8894,14 +8887,14 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function unregisterField(form, name) {
-  var destroyOnUnmount = arguments.length &#x3e; 2 &#x26;&#x26; arguments[2] !== undefined ? arguments[2] : true;
+  var destroyOnUnmount = arguments.length &gt; 2 &amp;&amp; arguments[2] !== undefined ? arguments[2] : true;
   return { type: _actionTypes.UNREGISTER_FIELD, meta: { form: form }, payload: { name: name, destroyOnUnmount: destroyOnUnmount } };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
     }
   }
 }, {
-  key: &#x27;unregister&#x27;,
+  key: 'unregister',
   value: function unregister(name) {
     if (!this.destroyed) {
       if (this.props.destroyOnUnmount || this.props.forceUnregisterOnUnmount) {
@@ -8931,7 +8924,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function untouch(form) {
-  for (var _len5 = arguments.length, fields = Array(_len5 &#x3e; 1 ? _len5 - 1 : 0), _key5 = 1; _key5 &#x3c; _len5; _key5++) {
+  for (var _len5 = arguments.length, fields = Array(_len5 &gt; 1 ? _len5 - 1 : 0), _key5 = 1; _key5 &lt; _len5; _key5++) {
     fields[_key5 - 1] = arguments[_key5];
   }
 
@@ -8956,9 +8949,9 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     <ul>
     <li>description and source-code<pre class="apidocCodePre">values = function (config) {
   var _prop$getFormState$co = _extends({
-    prop: &#x27;values&#x27;,
+    prop: 'values',
     getFormState: function getFormState(state) {
-      return getIn(state, &#x27;form&#x27;);
+      return getIn(state, 'form');
     }
   }, config),
       form = _prop$getFormState$co.form,
@@ -8966,7 +8959,7 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
       getFormState = _prop$getFormState$co.getFormState;
 
   return (0, _reactRedux.connect)(function (state) {
-    return _defineProperty({}, prop, getIn(getFormState(state), form + &#x27;.values&#x27;));
+    return _defineProperty({}, prop, getIn(getFormState(state), form + '.values'));
   }, function () {
     return {};
   } // ignore dispatch
@@ -8984,3 +8977,4 @@ _extends({}, _this7.props, (0, _redux.bindActionCreators)({ blur: blur, change: 
     ]
 </div>
 </div>
+</body></html>

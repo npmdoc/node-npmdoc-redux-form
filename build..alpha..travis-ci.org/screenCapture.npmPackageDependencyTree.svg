@@ -1,18 +1,35 @@
-<svg height="238" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="238" fill="#555" width="720"></rect>
+<svg height="510" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="510" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">├── UNMET PEER DEPENDENCY react@^15.0.0</tspan>
-<tspan x="10" y="42">├── UNMET PEER DEPENDENCY react-redux@^4.3.0 || ^5.0.0</tspan>
-<tspan x="10" y="58">├── UNMET PEER DEPENDENCY redux@^3.0.0</tspan>
-<tspan x="10" y="74">└─┬ redux-form@6.6.1 </tspan>
-<tspan x="10" y="90">  ├── deep-equal@1.0.1 </tspan>
-<tspan x="10" y="106">  ├── es6-error@4.0.2 </tspan>
-<tspan x="10" y="122">  ├── hoist-non-react-statics@1.2.0 </tspan>
-<tspan x="10" y="138">  ├─┬ invariant@2.2.2 </tspan>
-<tspan x="10" y="154">  │ └─┬ loose-envify@1.3.1 </tspan>
-<tspan x="10" y="170">  │   └── js-tokens@3.0.1 </tspan>
-<tspan x="10" y="186">  ├── is-promise@2.1.0 </tspan>
-<tspan x="10" y="202">  ├── lodash@4.17.4 </tspan>
-<tspan x="10" y="218">  └── lodash-es@4.17.4</tspan>
+<tspan x="10" y="26">18 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">├── UNMET PEER DEPENDENCY react@^15.0.0</tspan>
+<tspan x="10" y="90">├── UNMET PEER DEPENDENCY react-redux@^4.3.0 || ^5.0.0</tspan>
+<tspan x="10" y="106">├── UNMET PEER DEPENDENCY redux@^3.0.0</tspan>
+<tspan x="10" y="122">└─┬ redux-form@6.6.3 </tspan>
+<tspan x="10" y="138">  ├── deep-equal@1.0.1 </tspan>
+<tspan x="10" y="154">  ├── es6-error@4.0.2 </tspan>
+<tspan x="10" y="170">  ├── hoist-non-react-statics@1.2.0 </tspan>
+<tspan x="10" y="186">  ├─┬ invariant@2.2.2 </tspan>
+<tspan x="10" y="202">  │ └─┬ loose-envify@1.3.1 </tspan>
+<tspan x="10" y="218">  │   └── js-tokens@3.0.1 </tspan>
+<tspan x="10" y="234">  ├── is-promise@2.1.0 </tspan>
+<tspan x="10" y="250">  ├── lodash@4.17.4 </tspan>
+<tspan x="10" y="266">  ├── lodash-es@4.17.4 </tspan>
+<tspan x="10" y="282">  └─┬ prop-types@15.5.8 </tspan>
+<tspan x="10" y="298">    └─┬ fbjs@0.8.12 </tspan>
+<tspan x="10" y="314">      ├── core-js@1.2.7 </tspan>
+<tspan x="10" y="330">      ├─┬ isomorphic-fetch@2.2.1 </tspan>
+<tspan x="10" y="346">      │ ├─┬ node-fetch@1.6.3 </tspan>
+<tspan x="10" y="362">      │ │ ├─┬ encoding@0.1.12 </tspan>
+<tspan x="10" y="378">      │ │ │ └── iconv-lite@0.4.15 </tspan>
+<tspan x="10" y="394">      │ │ └── is-stream@1.1.0 </tspan>
+<tspan x="10" y="410">      │ └── whatwg-fetch@2.0.3 </tspan>
+<tspan x="10" y="426">      ├── object-assign@4.1.1 </tspan>
+<tspan x="10" y="442">      ├─┬ promise@7.1.1 </tspan>
+<tspan x="10" y="458">      │ └── asap@2.0.5 </tspan>
+<tspan x="10" y="474">      ├── setimmediate@1.0.5 </tspan>
+<tspan x="10" y="490">      └── ua-parser-js@0.7.12</tspan>
 </text>
 </svg>
