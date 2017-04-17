@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "redux-form",
-    "description": "api documentation for [redux-form (v6.6.1)](https://redux-form.com/) [![npm package](https://img.shields.io/npm/v/npmdoc-redux-form.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-form) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-form.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-form)",
+    "description": "api documentation for [redux-form (v6.6.3)](https://redux-form.com/) [![npm package](https://img.shields.io/npm/v/npmdoc-redux-form.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-form) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-form.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-form)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "redux-form": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
