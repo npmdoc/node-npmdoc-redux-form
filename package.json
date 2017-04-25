@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "redux-form",
-    "description": "api documentation for [redux-form (v6.6.3)](https://redux-form.com/) [![npm package](https://img.shields.io/npm/v/npmdoc-redux-form.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-form) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-form.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-form)",
+    "description": "#### basic api documentation for  [redux-form (v6.6.3)](https://redux-form.com/)  [![npm package](https://img.shields.io/npm/v/npmdoc-redux-form.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-form) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-form.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-form)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "redux-form": "*",

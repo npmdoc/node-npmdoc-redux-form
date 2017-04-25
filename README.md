@@ -1,4 +1,7 @@
-# api documentation for  [redux-form (v6.6.3)](https://redux-form.com/)  [![npm package](https://img.shields.io/npm/v/npmdoc-redux-form.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-form) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-form.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-form)
+# npmdoc-redux-form
+
+#### basic api documentation for  [redux-form (v6.6.3)](https://redux-form.com/)  [![npm package](https://img.shields.io/npm/v/npmdoc-redux-form.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-redux-form) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-redux-form.svg)](https://travis-ci.org/npmdoc/node-npmdoc-redux-form)
+
 #### A higher order component decorator for forms using Redux and React
 
 [![NPM](https://nodei.co/npm/redux-form.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/redux-form)
@@ -166,7 +169,8 @@
         "test:cov": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text npm test",
         "test:watch": "npm test -- --watch"
     },
-    "version": "6.6.3"
+    "version": "6.6.3",
+    "bin": {}
 }
 ```
 
