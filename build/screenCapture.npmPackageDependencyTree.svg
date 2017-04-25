@@ -23,7 +23,7 @@
 <tspan x="10" y="330">      ├─┬ isomorphic-fetch@2.2.1 </tspan>
 <tspan x="10" y="346">      │ ├─┬ node-fetch@1.6.3 </tspan>
 <tspan x="10" y="362">      │ │ ├─┬ encoding@0.1.12 </tspan>
-<tspan x="10" y="378">      │ │ │ └── iconv-lite@0.4.15 </tspan>
+<tspan x="10" y="378">      │ │ │ └── iconv-lite@0.4.16 </tspan>
 <tspan x="10" y="394">      │ │ └── is-stream@1.1.0 </tspan>
 <tspan x="10" y="410">      │ └── whatwg-fetch@2.0.3 </tspan>
 <tspan x="10" y="426">      ├── object-assign@4.1.1 </tspan>
